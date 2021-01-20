@@ -1,0 +1,58 @@
+# 担保
+
+问题：提供担保的长期成员在支持社区多元化和包容性方面表现如何？
+
+## 描述
+
+对社区成员的担保不同于指导 [(4)](https://hbr.org/2019/02/sponsors-need-to-stop-acting-like-mentors)。 导师提供指导、分享经验并激励学员成长。 导师可以来自社区外部。 相比之下，担保人是社区内的一员，用自己的声誉为被担保人创造在社区内向上发展的机会。
+
+业内最近才开始采用担保。 担保是增加多元化的有效领导策略。 被担保人在社区中感受到偏见的可能性降低了 90% [(1)](https://fortune.com/2017/07/13/implicit-bias-perception-costs-companies/)。 被担保人知道担保人会在社区中为自己提供支持和争取机会。 被担保人会更愿意加入社区或感到安心，他们知道有人关心自己并且希望认可自己。 这可以让被担保人有效克服过去可能与其多样背景有关的负面经历。 担保人以自己的声誉推动被担保人在社区中的发展。
+
+## 目标
+
+- 更长时间保留新成员。
+- 扩大贡献者基础，将新的（或不太活跃的）成员转化为更活跃的成员，并最终成为社区负责人
+- 培养成员之间更紧密的社区联系。
+- 减少社区内部的偏见。
+- 为不同背景的新成员提供机会。
+- 引导和培训新成员承担新的责任，增强领导力。
+- 通过博客、演讲、媒体采访等途径展现为提高多元化和包容性所做的努力，推广担保形式。
+- 找到潜在的具有多元化背景的主题专家作为担保人。
+- 将被担保人转换为担保人，让这一循环继续下去。
+
+## 实现
+
+### 数据收集策略
+
+- 采访成员：
+
+  - 对于被担保人：担保计划在哪些方面让您更加成功？
+  - 担保计划如何改善项目的多元化和包容性？
+  - 担保计划还可以如何改进？
+  - 担保计划是否帮助您在项目中获得更多责任和/或更强领导力？
+  - 在事件/会议中收集有关潜在多元化被担保人的信息
+    - 您是否担保过与自己性别不同的人？
+    - 将性别与统计信息维度中的一个相关维度进行交换。
+
+- 调查成员：
+
+  - 调查成员：“您想过成为其他成员的担保人吗？”
+  - 调查被担保人：“现在有担保人帮助您吗？”
+  - 李克特量表 [1-x] 项：我正在担保其他成员。
+  - 李克特量表 [1-x] 项：我正在担保与我不同的成员。
+  - 李克特量表 [1-x] 项：社区中有一个担保人用声誉为我提供支持。
+  - 李克特量表 [1-x] 项：担保计划效果如何？
+
+## 参考资料
+
+- https://fortune.com/2017/07/13/implicit-bias-perception-costs-companies/
+- Sponsor Effect 2.0: Road Maps for Sponsors and Protégés
+   - 人才创新中心（付款链接）
+    - http://www.talentinnovation.org/publication.cfm?publication=1330
+   - The Key Role of Sponsorship:
+    - https://inclusion.slac.stanford.edu/sites/inclusion.slac.stanford.edu/files/The_Key_Role_of_a_Sponsorship_for_Diverse_Talent.pdf
+- Perceived unfairness is a major reason to leave a community
+   - https://www.kaporcenter.org/tech-leavers/
+- Sponsors Need to Stop Acting Like Mentors
+   - Julia Taylor Kennedy 和 Pooja Jain-Link
+   - https://hbr.org/2019/02/sponsors-need-to-stop-acting-like-mentors
