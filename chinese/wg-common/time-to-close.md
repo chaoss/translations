@@ -23,7 +23,7 @@
 
 ### 可视化效果
 
-![从 GrimoireLab 关闭问题的平均时间和中值时间](images/time-to-close.png)
+![从 GrimoireLab 关闭问题的平均时间和中值时间](images/time-to-close_1.png)
 
 ### 提供指标的工具
 
