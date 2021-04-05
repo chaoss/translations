@@ -37,13 +37,13 @@
 
 ### 可视化效果
 
-1. 贡献者名称列表（通常带有参与程度的信息）<br /> ![贡献者名称和信息](images/top_contributor_info.png)
+1. 贡献者名称列表（通常带有参与程度的信息）<br /> ![贡献者名称和信息](images/contributors_top-contributor-info.png)
 
-2. 贡献者人数汇总<br /> ![贡献者人数汇总](images/summary_contributor_number.png)
+2. 贡献者人数汇总<br /> ![贡献者人数汇总](images/contributors_summary-contributor-number.png)
 
-3. 活跃贡献者数量随时间的变化<br /> ![贡献者成长](images/contributor_growth.png)
+3. 活跃贡献者数量随时间的变化<br /> ![贡献者成长](images/contributors_growth.png)
 
-4. 新贡献者（按首次贡献日期对贡献者排序）<br /> ![新贡献者](images/first_commit_date.png)
+4. 新贡献者（按首次贡献日期对贡献者排序）<br /> ![新贡献者](images/contributors_first-commit-date.png)
 
 ### 提供指标的工具
 
