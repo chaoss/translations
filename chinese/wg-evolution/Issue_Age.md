@@ -1,6 +1,6 @@
 # Issue时长
 
-Issue：未关闭的issue开了多长时间？
+问题：未关闭的issue开了多长时间？
 
 ## 描述
 这一指标是指在度量的时间段内，issue有多长时间处于未关闭状态。 如果一个issue已经关闭，但在这段时间内又重新打开，则将该issue按照初始发布的时间来考虑。
@@ -24,9 +24,9 @@ Issue：未关闭的issue开了多长时间？
 
 ### 可视化效果
 
-1. 未关闭的issue汇总数据<br /> ![未解决问题的汇总数据](images/open_issue_data.png)
+1. 未关闭的issue汇总数据<br /> ![未解决issue的汇总数据](images/open_issue_data.png)
 
-2. 每天未关闭issue的数量<br /> ![每天未解决问题的计数](images/open_issue_count_timeseries.png)
+2. 每天未关闭issue的数量<br /> ![每天未解决issue的计数](images/open_issue_count_timeseries.png)
 
 ### 提供指标的工具
 
@@ -35,6 +35,6 @@ Issue：未关闭的issue开了多长时间？
 
 ### 数据收集策略
 
-关于收集已关闭issue数据的具体说明，请参阅[“新问题”的对应部分](https://github.com/chaoss/wg-evolution/blob/master/metrics/Issues_New.md#data-collection-strategies)。
+关于收集已关闭issue数据的具体说明，请参阅[“新issue”的对应部分](https://github.com/chaoss/wg-evolution/blob/master/metrics/Issues_New.md#data-collection-strategies)。
 
 ## 参考资料
