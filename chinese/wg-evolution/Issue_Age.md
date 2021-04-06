@@ -24,9 +24,9 @@
 
 ### 可视化效果
 
-1. 未解决问题的汇总数据<br /> ![未解决问题的汇总数据](images/open_issue_data.png)
+1. 未关闭的issue汇总数据<br /> ![未解决issue的汇总数据](images/open_issue_data.png)
 
-2. 每天未解决问题的计数<br /> ![每天未解决问题的计数](images/open_issue_count_timeseries.png)
+2. 每天未关闭issue的数量<br /> ![每天未解决issue的计数](images/open_issue_count_timeseries.png)
 
 ### 提供指标的工具
 
@@ -35,6 +35,6 @@
 
 ### 数据收集策略
 
-关于收集已解决问题的数据的具体说明，请参阅[“新问题”的对应部分](https://github.com/chaoss/wg-evolution/blob/master/metrics/Issues_New.md#data-collection-strategies)。
+关于收集已关闭issue数据的具体说明，请参阅[“新issue”的对应部分](https://github.com/chaoss/wg-evolution/blob/master/metrics/Issues_New.md#data-collection-strategies)。
 
 ## 参考资料
