@@ -32,11 +32,11 @@
       * 桶拆分切片：`Terms` 聚合，`author_or_name` 字段，`metric: Contributions` 排序依据，`Descending` 排列，`500` 大小，`Organization` 自定义标签
     * 屏幕截图示例
 
-    ![组织多元化饼状图](images/piechart.png)
+    ![组织多元化饼状图](images/organizational-diversity_piechart.png)
 
 * [LF Analytics](https://lfanalytics.io) 在主视图中为提交、提交的问题和通信渠道（目前支持 Slack 和 groups.io）提供组织多元化指标。
 
-![组织多元化视图](images/lfanalytics-orgdiversity.png)
+![组织多元化视图](images/organizational-diversity_lfanalytics-orgdiversity.png)
 
 
 
