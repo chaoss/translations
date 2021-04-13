@@ -29,7 +29,7 @@
 * 问题的状态（例如，仅查看当前未解决问题）
 
 ### 可视化效果
-![GrimoireLab 的示例可视化效果](images/issue_response_duration_grimoirelab.png)
+![GrimoireLab 的示例可视化效果](images/issue-response-time_grimoirelab.png)
 
 ### 提供指标的工具
 * GrimoireLab：[任意票证系统的一般情况](https://chaoss.github.io/grimoirelab-sigils/panels/efficiency-timing-overview/)、[GitHub 问题](https://chaoss.github.io/grimoirelab-sigils/panels/github-issues-efficiency/)、[GitLab 问题](https://chaoss.github.io/grimoirelab-sigils/panels/gitlab-issues-efficiency/)

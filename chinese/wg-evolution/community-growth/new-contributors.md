@@ -37,7 +37,7 @@
 
 ### 可视化效果
 
-![GrimoireLab 的新贡献者可视化](images/new_contributors.png)
+![GrimoireLab 的新贡献者可视化](images/new-contributors_1.png)
 
 ### 提供指标的工具
 [Augur](http://augur.osshealth.io/api_docs/#api-Evolution-New_Contributors_Repo_) [GrimoireLab](https://chaoss.github.io/grimoirelab-sigils/panels/git-demographics/)

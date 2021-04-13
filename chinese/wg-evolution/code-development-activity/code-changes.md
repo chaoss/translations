@@ -49,7 +49,7 @@
     * 选择 `git` 索引
     * Y 轴：`Unique Count` 聚合，`hash` 字段，`# Commits` 自定义标签
     * X 轴：`Date Histogram` 聚合，`grimoire_creation_date` 字段，`Auto` 间隔，`Time` 自定义标签
-  - 屏幕截图示例： ![GrimoireLab 指标截图 Code_Changes](https://github.com/chaoss/wg-evolution/blob/master/metrics/images/code_changes-GrimoireLab.png)
+  - 屏幕截图示例： ![GrimoireLab 指标截图 Code_Changes](images/code-changes_grimoirelab.png)
 
 * [Augur](http://augur.osshealth.io/) 将此指标作为[代码变更](http://augur.osshealth.io/api_docs/#api-Evolution-code_changes_repo/)和[代码变更行](http://augur.osshealth.io/api_docs/#api-Evolution-code_changes_lines_repo)提供。 两个指标均以 `repo` 和 `repo_group` 形式提供，更多信息见 [Augur 文档](https://oss-augur.readthedocs.io/en/master/getting-started/create-a-metric/overview.html#metric-forms)。
 
