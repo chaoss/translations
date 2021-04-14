@@ -23,7 +23,7 @@
 
 Grimoire Lab 显示提交者
 
-<img src="https://github.com/chaoss/wg-risk/blob/master/metrics/images/GL.Committers.png" width="750" />
+![Grimoire Lab Committers](images/committers_grimoire-lab.png)
 
 ### 筛选条件
 * 时间：较新的不同提交者的数量可能比项目（仓库）生命周期内的人数更清楚地表明参与项目的人数。
@@ -33,7 +33,7 @@ Grimoire Lab 显示提交者
 ## 提供指标的工具
 Augur 为仓库中的每条提交记录维护了一个表格。
 
-<img src="https://github.com/chaoss/wg-risk/blob/master/metrics/images/augur_commits.png" width="300" />
+![Augur Committers](images/committers_augur.png)
 
 要评估一个仓库的不同提交者，可以使用以下 SQL 或文档化的 API 端点：
 ```sql

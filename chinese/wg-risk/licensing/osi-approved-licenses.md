@@ -18,7 +18,7 @@
 
 ### 可视化效果
 
-![OSI](https://i.imgur.com/DfOpFdy.png)
+![OSI](images/osi-approved-licenses_visualization.png)
 
 ### 提供指标的工具
 

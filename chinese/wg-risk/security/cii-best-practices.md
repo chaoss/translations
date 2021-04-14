@@ -18,7 +18,7 @@
 
 ### 可视化效果
 
-![](https://i.imgur.com/mSformz.png)
+![](images/cii-best-practices_visualization.png)
 
 ### 提供指标的工具
 

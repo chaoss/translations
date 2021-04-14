@@ -18,10 +18,10 @@
 ### 可视化效果
 
 #### Augur 输出的 Web 演示：
-<img src="https://i.imgur.com/f0kuJlP.png" width="300" />
+![Augur JSON Output](images/license-coverage_augur-json-output.png)
 
 #### Augur 输出的 JSON 演示：
-<img src="https://i.imgur.com/Xyxm3q3.jpg" width="250" />
+![Augur Web Output](images/license-coverage_augur-web-output.png)
 
 ### 提供指标的工具
  1. [Augur](https://github.com/chaoss/augur)
