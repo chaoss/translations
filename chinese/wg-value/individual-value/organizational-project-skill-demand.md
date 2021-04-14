@@ -30,23 +30,23 @@
 
 以下可视化效果展示了依赖于特定项目的下游项目的数量。 虽然这种可视化效果未捕捉项目软件下游组织影响指标的整体，但它提供了一部分的可视化效果。
 
-![纸质图像](images/_paper.png)
+![纸质图像](images/organizational-project-skill-demand_paper.png)
 
 其他可视化效果可能包括 Google 搜索趋势（React vs. Angular vs. Vue.js）。
 
-![Google 趋势](images/_google_trends.png)
+![Google 趋势](images/organizational-project-skill-demand_google-trends.png)
 
 ThoughtWorks 发布了名为 'Tech Radar' 的系列，展现技术的普及程度。
 
-![TechRadar](images/_tech_radar.png)
+![TechRadar](images/organizational-project-skill-demand_tech-radar.png)
 
 Tech Radar 让您能够对项目进行深入研究，了解评估随时间的变化。
 
-![评估](images/_tech_react.png)
+![评估](images/organizational-project-skill-demand_tech-react.png)
 
 StackOverview 发布了年度开发者调查
 
-![StackOverflow](images/_stack_overflow.png)
+![StackOverflow](images/organizational-project-skill-demand_stack-overflow.png)
 
 
 ### 提供指标的工具

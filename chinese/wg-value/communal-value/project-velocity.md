@@ -42,7 +42,7 @@ OSPO 管理员可以使用项目速度指标来：
 * 点大小：提交者
 * 点为项目
 
-![cncf](images/Velocity.png)
+![cncf](images/project-velocity_visualization.png)
 
 [来自 CNCF](https://www.cncf.io/blog/2017/06/05/30-highest-velocity-open-source-projects/)
 

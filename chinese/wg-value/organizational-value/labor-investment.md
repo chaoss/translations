@@ -39,7 +39,7 @@
 
 ### 可视化效果
 
-![csv](images/Csv.png)
+![csv](images/labor-investment_csv.png)
 
 我们的第一个参数化指标的可视化效果依赖于 CSV 导出，可以从 Augur 获得。 电子表格用于指标参数和计算公式。  未来的实现可能会在 webapp 中直接添加参数操作的功能。
 
