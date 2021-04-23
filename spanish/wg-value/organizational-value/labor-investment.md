@@ -39,7 +39,7 @@ Inversión laboral = Para cada tipo de contribución, suma (Número de contribuc
 
 ### Visualizaciones
 
-![csv](images/Csv.png)
+![csv](images/labor-investment_csv.png)
 
 Nuestra primera visualización de métricas parametrizadas se basa en exportaciones CSV que pueden estar disponibles en Augur. Las hojas de cálculo se utilizan para parámetros métricos y fórmulas de cálculo.  Es posible que en implementaciones futuras se añadan funciones para la manipulación de parámetros directamente en la aplicación web.
 

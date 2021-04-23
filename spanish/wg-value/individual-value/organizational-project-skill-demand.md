@@ -30,23 +30,23 @@ Las métricas base incluyen:
 
 La siguiente visualización demuestra el número de proyectos a posteriori dependientes del proyecto en cuestión. Si bien esta visualización no captura de la totalidad de la métrica Impacto organizacional a posteriori de un software de proyecto, proporciona una representación visual de una parte.
 
-![imagen de papel](images/_paper.png)
+![imagen de papel](images/organizational-project-skill-demand_paper.png)
 
 Otras visualizaciones podrían incluir tendencias de búsqueda de Google (reactiva vs. angular vs. Vue.js)
 
-![Tendencias de Google](images/_google_trends.png)
+![Tendencias de Google](images/organizational-project-skill-demand_google-trends.png)
 
 ThoughtWorks publica una serie llamada «Tech Radar» que muestra la popularidad de las tecnologías
 
-![TechRadar](images/_tech_radar.png)
+![TechRadar](images/organizational-project-skill-demand_tech-radar.png)
 
 Tech Radar le permite profundizar en los proyectos para ver cómo ha cambiado la evaluación con el tiempo.
 
-![Evaluación](images/_tech_react.png)
+![Evaluación](images/organizational-project-skill-demand_tech-react.png)
 
 StackOverview publica una encuesta anual para desarrolladores
 
-![StackOverflow](images/_stack_overflow.png)
+![StackOverflow](images/organizational-project-skill-demand_stack-overflow.png)
 
 
 ### Herramientas que proporcionan la métrica

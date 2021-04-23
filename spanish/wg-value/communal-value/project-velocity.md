@@ -42,7 +42,7 @@ Las métricas base incluyen:
 * Tamaño de punto: Committers
 * Los puntos son proyectos
 
-![cncf](images/Velocity.png)
+![cncf](images/project-velocity_visualization.png)
 
 [De CNCF](https://www.cncf.io/blog/2017/06/05/30-highest-velocity-open-source-projects/)
 
