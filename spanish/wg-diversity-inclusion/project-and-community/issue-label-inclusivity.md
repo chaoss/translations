@@ -33,10 +33,10 @@ La inclusividad de las etiquetas de incidencias ayuda a medir la asequibilidad d
 - Problemas relacionados con el código frente a problemas relacionados con la documentación
 
 #### Visualización
-![ejemplo nº 1 del laboratorio de girimoire](images/grimoire-lab-viz-example1.png) ![ejemplo nº 2 del laboratorio de girimoire](images/grimoire-lab-viz-example2.png)
+![ejemplo nº 1 del laboratorio de girimoire](images/issue-label-inclusivity_grimoire-lab-viz-example1.png) ![ejemplo nº 2 del laboratorio de girimoire](images/issue-label-inclusivity_grimoire-lab-viz-example2.png)
 
 
-![etiquetas de ejemplo del proyecto kubernetes](images/kubernetes-labels-example.png) De: https://github.com/kubernetes/kubernetes/labels
+![etiquetas de ejemplo del proyecto kubernetes](images/issue-label-inclusivity_kubernetes-labels-example.png) De: https://github.com/kubernetes/kubernetes/labels
 
 #### Herramientas que proporcionan la métrica:
 - GrimoireLab
