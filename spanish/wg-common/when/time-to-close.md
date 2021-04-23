@@ -23,7 +23,7 @@ Métrica relacionada: [Duración de la resolución de la incidencia](https://cha
 
 ### Visualizaciones
 
-![Tiempo medio para cerrar una incidencia de GrimoireLab](images/time-to-close.png)
+![Tiempo medio para cerrar una incidencia de GrimoireLab](images/time-to-close_1.png)
 
 ### Herramientas que proporcionan la métrica
 

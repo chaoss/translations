@@ -26,11 +26,11 @@ Tiempo hasta la primera respuesta de una actividad = hora en que se publicó la 
 
 
 ### Visualizaciones
-![Panel de GrimoireLab: descripción general del tiempo de eficiencia](https://github.com/chaoss/wg-common/blob/master/focus-areas/when/images/efficiency_timing_overview.png)
+![Panel de GrimoireLab: descripción general del tiempo de eficiencia](images/time-to-first-response_efficiency-timing-overview.png)
 ---------
-![Visualización de Augur: mapa de calor de tiempo hasta la primera respuesta ](https://github.com/chaoss/wg-common/blob/master/focus-areas/when/images/augur-ttc-1.png)
+![Visualización de Augur: mapa de calor de tiempo hasta la primera respuesta ](images/time-to-first-response_augur-ttc-1.png)
 ---------
-![Visualización de Augur: tiempos de respuesta medios](https://github.com/chaoss/wg-common/blob/master/focus-areas/when/images/augur-ttc-2.png)
+![Visualización de Augur: tiempos de respuesta medios](images/time-to-first-response_augur-ttc-2.png)
 
 ### Herramientas que proporcionan la métrica
 
