@@ -59,7 +59,7 @@ Estas podrían representarse como gráficos de barras, con el tiempo en el eje X
     * Eje Y 1: Agregación `Suma`, Campo `lines_added`, Etiqueta personalizada `Líneas añadidas`
     * Eje Y 2: Agregación `Suma`, Campo `painless_inverted_lines_removed_git`, Etiqueta personalizada `Líneas eliminadas`
     * Eje X: Agregación `Histograma de fechas`, Campo `grimoire_creation_date`, Intervalo `Automático`, Etiqueta personalizada `Hora`
-  - Captura de pantalla de ejemplo: ![Captura de pantalla de GrimoireLab de la métrica Code_Changes_Lines](https://github.com/chaoss/wg-evolution/blob/master/metrics/images/code_changes_lines-GrimoireLab.png)
+  - Captura de pantalla de ejemplo: ![Captura de pantalla de GrimoireLab de la métrica Code_Changes_Lines](images/code-changes-lines_grimoirelab.png)
 
 
 ### Estrategias de recopilación de datos

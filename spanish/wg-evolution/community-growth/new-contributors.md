@@ -37,7 +37,7 @@ Etapa de participación (p. ej., solicitud de extracción de apertura vs. conseg
 
 ### Visualizaciones
 
-![Visualización de nuevos contribuyentes de GrimoireLab](images/new_contributors.png)
+![Visualización de nuevos contribuyentes de GrimoireLab](images/new-contributors_1.png)
 
 ### Herramientas que proporcionan la métrica
 [Augur](http://augur.osshealth.io/api_docs/#api-Evolution-New_Contributors_Repo_) [GrimoireLab](https://chaoss.github.io/grimoirelab-sigils/panels/git-demographics/)

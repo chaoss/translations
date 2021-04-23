@@ -24,9 +24,9 @@ Para todas las incidencias abiertas, obtenga la fecha en que se abrió la incide
 
 ### Visualizaciones
 
-1. Resumen de datos de las incidencias abiertas<br /> ![Resumen de datos de las incidencias abiertas](images/open_issue_data.png)
+1. Resumen de datos de las incidencias abiertas<br /> ![Resumen de datos de las incidencias abiertas](images/issue-age_open-issue-data.png)
 
-2. Número de incidencias abiertas por día<br /> ![Número de incidencias abiertas por día](images/open_issue_count_timeseries.png)
+2. Número de incidencias abiertas por día<br /> ![Número de incidencias abiertas por día](images/issue-age_open-issue-count-timeseries.png)
 
 ### Herramientas que proporcionan la métrica
 

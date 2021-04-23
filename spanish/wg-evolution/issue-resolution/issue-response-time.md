@@ -29,7 +29,7 @@ Obtenga información sobre la capacidad de respuesta de una comunidad de código
 * estado de la incidencia (por ejemplo, solo mirar las incidencias abiertas actualmente)
 
 ### Visualizaciones
-![Visualización de ejemplo de GrimoireLab](images/issue_response_duration_grimoirelab.png)
+![Visualización de ejemplo de GrimoireLab](images/issue-response-time_grimoirelab.png)
 
 ### Herramientas que proporcionan la métrica
 * GrimoireLab: [General para cualquier sistema de tickets](https://chaoss.github.io/grimoirelab-sigils/panels/efficiency-timing-overview/), [Incidencias de GitHub](https://chaoss.github.io/grimoirelab-sigils/panels/github-issues-efficiency/), [Incidencias de GitLab](https://chaoss.github.io/grimoirelab-sigils/panels/gitlab-issues-efficiency/)

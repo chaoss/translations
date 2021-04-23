@@ -49,7 +49,7 @@ Estas podrían representarse como gráficos de barras, con el tiempo en el eje X
     * Seleccione el índice `git`
     * Eje Y: Agregación `Cantidad única`, Campo `hash`, Etiqueta personalizada `# Commits`
     * Eje X: Agregación `Histograma de fechas`, Campo `grimoire_creation_date`, Intervalo `Automático`, Etiqueta personalizada `Hora`
-  - Captura de pantalla de ejemplo: ![Captura de pantalla de GrimoireLab de la métrica Code_Changes](https://github.com/chaoss/wg-evolution/blob/master/metrics/images/code_changes-GrimoireLab.png)
+  - Captura de pantalla de ejemplo: ![Captura de pantalla de GrimoireLab de la métrica Code_Changes](images/code-changes_grimoirelab.png)
 
 * [Augur](http://augur.osshealth.io/) proporciona esta métrica como [Cambios de código](http://augur.osshealth.io/api_docs/#api-Evolution-code_changes_repo/) y como [Líneas de cambios de código](http://augur.osshealth.io/api_docs/#api-Evolution-code_changes_lines_repo). Ambas métricas están disponibles en las formas métricas `repo` y `repo_group`. Puede encontrar más información al respecto en la documentación de [Augur](https://oss-augur.readthedocs.io/en/master/getting-started/create-a-metric/overview.html#metric-forms).
 

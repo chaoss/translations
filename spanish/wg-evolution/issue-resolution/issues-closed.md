@@ -61,7 +61,7 @@ Estas se pueden agrupar aplicando los filtros definidos anteriormente. Estas pod
     * Filtro: `state` es `cerrada`.
     * Métricas del eje Y: Agregación `Cantidad`, Etiqueta personalizada `# Incidencias cerradas`.
     * Cubos del eje X: Agregación `Histograma de fechas`, Campo `cerrado_a_las`, Intervalo `Semanal` (o cualquier intervalo que se ajuste a sus necesidades, dependiendo del rango de tiempo completo que desee visualizar en el gráfico), Etiqueta personalizada `Hora`.
-  - Captura de pantalla de ejemplo: ![GrimoireLab screenshot of metric issues_closed](https://github.com/chaoss/wg-evolution/blob/master/metrics/images/issues_closed_GrimoireLab.png).
+  - Captura de pantalla de ejemplo: ![GrimoireLab screenshot of metric issues_closed](images/issues-closed_grimoirelab.png).
 
 
 ### Estrategias de recopilación de datos
