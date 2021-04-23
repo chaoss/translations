@@ -48,7 +48,7 @@ Si tenemos 8 organizaciones y cada una de las cuales contribuye con el siguiente
     * Seleccione el índice `git`
     * Tamaño de la porción de las métricas: Agregación `Cantidad`
     * Segmentos divididos en cubos: Agregación `Términos`, Campo `author_org_name`, Ordenar por `métrica: Cantidad`, Orden `Descendente`, Tamaño `500`
-  - Captura de pantalla de ejemplo: ![Captura de pantalla de GrimoireLab de la métrica Elephant_Factor](https://github.com/chaoss/wg-risk/blob/master/metrics/images/elephant_factor-GrimoireLab.png)
+  - Captura de pantalla de ejemplo: ![GrimoireLab 指标截图 Elephant_Factor](images/elephant-factor_grimoire-lab.png)
 
 
 ## Referencias

@@ -18,7 +18,7 @@ Consulte la [documentación de la API de la CII](https://github.com/coreinfrastr
 
 ### Visualizaciones
 
-![](https://i.imgur.com/mSformz.png)
+![](images/cii-best-practices_visualization.png)
 
 ### Herramientas que proporcionan la métrica
 

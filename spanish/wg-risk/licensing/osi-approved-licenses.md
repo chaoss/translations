@@ -18,7 +18,7 @@ Las licencias aprobadas por OSI se pueden encontrar en el archivo [Licenses.json
 
 ### Visualizaciones
 
-![OSI](https://i.imgur.com/DfOpFdy.png)
+![OSI](images/osi-approved-licenses_visualization.png)
 
 ### Herramientas que proporcionan la métrica
 

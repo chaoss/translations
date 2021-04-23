@@ -18,10 +18,12 @@ Tiempo: las licencias declaradas en un repositorio pueden cambiar con el tiempo 
 ### Visualizaciones
 
 #### Presentación web de los resultados de Augur:
-<img src="https://i.imgur.com/f0kuJlP.png" width="300" />
+
+![Augur JSON Output](images/license-coverage_augur-json-output.png)
 
 #### Presentación JSON de los resultados de Augur:
-<img src="https://i.imgur.com/Xyxm3q3.jpg" width="250" />
+
+![Augur Web Output](images/license-coverage_augur-web-output.png)
 
 ### Herramientas que proporcionan la métrica
  1. [Augur](https://github.com/chaoss/augur)

@@ -36,7 +36,7 @@ Este documento fue generado por Augur.
 
 * Paquetes
 * Package_Files
-* Archivos (que pueden estar incluidos, pero es poco probable que también se incluyan en otros paquetes). La información de la licencia se incluye como parte de un SBOM, pero la complejidad de la identificación de la licencia se aclara en las métricas [License_Count](https://github.com/chaoss/wg-risk/blob/master/metrics/License_Count.md), [License_Coverage](https://github.com/chaoss/wg-risk/blob/master/metrics/License_Coverage.md)y [License_Declared](https://github.com/chaoss/wg-risk/blob/master/metrics/License_Declared.md). ![](https://github.com/chaoss/wg-risk/blob/master/metrics/images/SBOM.png)
+* Archivos (que pueden estar incluidos, pero es poco probable que también se incluyan en otros paquetes). La información de la licencia se incluye como parte de un SBOM, pero la complejidad de la identificación de la licencia se aclara en las métricas [License_Count](https://github.com/chaoss/wg-risk/blob/master/metrics/License_Count.md), [License_Coverage](https://github.com/chaoss/wg-risk/blob/master/metrics/License_Coverage.md)y [License_Declared](https://github.com/chaoss/wg-risk/blob/master/metrics/License_Declared.md). ![SBOM](images/spdx-document_sbom.png)
 
 
 ## Referencias

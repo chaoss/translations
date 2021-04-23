@@ -23,7 +23,7 @@ En un proyecto de código abierto, cada dirección de correo electrónico indivi
 
 De Grimoire Lab mostrando committers
 
-<img src="https://github.com/chaoss/wg-risk/blob/master/metrics/images/GL.Committers.png" width="750" />
+![Grimoire Lab Committers](images/committers_grimoire-lab.png)
 
 ### Filtros
 * Tiempo: conocer el número más reciente de committers distintos puede indicar más claramente el número de personas que participan en un proyecto que examinar el número durante la vida de un proyecto (repositorio).
@@ -33,7 +33,7 @@ De Grimoire Lab mostrando committers
 ## Herramientas que proporcionan la métrica
 Augur mantiene una tabla para cada registro de commit en un repositorio.
 
-<img src="https://github.com/chaoss/wg-risk/blob/master/metrics/images/augur_commits.png" width="300" />
+![Augur Committers](images/committers_augur.png)
 
 Para evaluar los distintos committers de un repositorio, se pueden utilizar los siguientes endpoints SQL o API documentados:
 ```sql
