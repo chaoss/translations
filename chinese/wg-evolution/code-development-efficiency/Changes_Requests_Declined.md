@@ -48,7 +48,7 @@
 
 在 GitHub 的情况下，拒绝的变更请求定义为“关闭的拉取请求，其变更未包含在 git 仓库中”，前提是它提出对源代码文件的变更。
 
-请参阅[接受的变更请求](https://github.com/chaoss/wg-evolution/blob/master/focus-areas/code-development-efficiency/Change_Requests_Accepted.md)中关于 GitHub 具体描述的讨论，因其在此处也适用。
+请参阅[接受的变更请求](https://github.com/chaoss/translations/blob/main/chinese/wg-evolution/code-development-efficiency/Change_Requests_Accepted.md)中关于 GitHub 具体描述的讨论，因其在此处也适用。
 
 强制性参数（对于 GitHub）：
 

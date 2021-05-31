@@ -5,7 +5,7 @@
 
 ## 描述
 
-变更请求如[变更请求](https://github.com/chaoss/wg-evolution/blob/master/focus-areas/code-development-process-quality/Change_Requests.md)中定义。 接受的变更请求的定义位于[接受的变更请求](https://github.com/chaoss/wg-evolution/blob/master/focus-areas/code-development-efficiency/Change_Requests_Accepted.md)中。
+变更请求如[变更请求](https://github.com/chaoss/translations/tree/main/chinese/wg-evolution/code-development-process-quality/Change_Requests.md)中定义。 接受的变更请求的定义位于[接受的变更请求](https://github.com/chaoss/translations/blob/main/chinese/wg-evolution/code-development-efficiency/Change_Requests_Accepted.md)中。
 
 变更请求时长是指从代码变更请求开始到结束（被接受并合并到代码库中）这段时间的长度。 这仅适用于接受的变更请求。
 
