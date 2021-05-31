@@ -1,33 +1,33 @@
-# Issue解决时长
+# 问题解决时长
 
-问题：解决issue花费了多长时间？
+问题：解决问题花费了多长时间？
 
 ## 描述
-这一指标表明issue在解决之前平均有多长时间处于未解决状态。 Issue如[已解决issue](https://github.com/chaoss/wg-evolution/blob/master/metrics/Issues_Closed.md)中定义。
+这一指标表明问题在解决之前平均有多长时间处于未解决状态。 问题如[已解决问题](https://github.com/chaoss/wg-evolution/blob/master/metrics/Issues_Closed.md)中定义。
 
-对于重新打开后再次关闭的issue，只有最后的解决日期与该指标有关。
+对于重新打开后再次关闭的问题，只有最后的解决日期与该指标有关。
 
 ## 目标
 此指标可用于评估完成和解决讨论所需的工作量和时间。 此指标还可以提供项目响应程度的相关信息。
 
 ## 实现
 
-对于每个已关闭的issue：
-* issue解决时长 = 已关闭的issue时间戳 - 新建issue的时间戳
+对于每个已关闭的问题：
+* 问题解决时长 = 已关闭的问题时间戳 - 新建问题的时间戳
 
 **聚合器：**
-* 平均数。 仓库中issue得到解决的平均时间（默认以天为单位）。
+* 平均数。 仓库中问题得到解决的平均时间（默认以天为单位）。
 
 **参数：**
 * 时间段。 开始日期和完成日期。 默认：永久。  
-  考虑issue的时间周期。
+  考虑问题的时间周期。
 
 
 ### 筛选条件
 
-* 按时间。 由提供的开始日期到提供的结束日期，表明平均issue解决时长。
-  - 按未解决时间。 由提供的开始日期到提供的结束日期，表明已创建issue需要多长时间解决的相关信息。
-  - 按已解决时间。 由提供的开始日期到提供的结束日期，表明先前已解决的旧issue需要多长时间解决的相关信息。
+* 按时间。 由提供的开始日期到提供的结束日期，表明平均问题解决时长。
+  - 按未解决时间。 由提供的开始日期到提供的结束日期，表明已创建问题需要多长时间解决的相关信息。
+  - 按已解决时间。 由提供的开始日期到提供的结束日期，表明先前已解决的旧问题需要多长时间解决的相关信息。
 
 * 按参与者（提交者、评论者、解决者）。 需要参与者合并（合并同一作者的对应 ID）。
 
@@ -43,12 +43,12 @@
 
 ### 提供指标的工具
 
-* [Augur](http://augur.osshealth.io/) 将此指标作为[已解决issue解决时长](http://augur.osshealth.io/api_docs/#api-Evolution-Closed_Issue_Resolution_Duration_Repo_)提供。 该指标均以 `repo` 和 `repo_group` 指标形式提供，更多信息见 [Augur 文档](https://oss-augur.readthedocs.io/en/master/getting-started/create-a-metric/overview.html#metric-forms)。
+* [Augur](http://augur.osshealth.io/) 将此指标作为[已解决问题解决时长](http://augur.osshealth.io/api_docs/#api-Evolution-Closed_Issue_Resolution_Duration_Repo_)提供。 该指标均以 `repo` 和 `repo_group` 指标形式提供，更多信息见 [Augur 文档](https://oss-augur.readthedocs.io/en/master/getting-started/create-a-metric/overview.html#metric-forms)。
 
 
 ### 数据收集策略
 
-关于收集已解决issue的数据的具体说明，请参阅[“已解决issue”的对应部分](https://github.com/chaoss/wg-evolution/blob/master/metrics/Issues_Closed.md#data-collection-strategies)。
+关于收集已解决问题的数据的具体说明，请参阅[“已解决问题”的对应部分](https://github.com/chaoss/wg-evolution/blob/master/metrics/Issues_Closed.md#data-collection-strategies)。
 
 
 ## 参考资料

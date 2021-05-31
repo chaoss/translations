@@ -1,10 +1,10 @@
-# 接受的review
+# 接受的变更请求
 
-问题：在一次代码变更中存在多少接受的review？
+问题：在一次代码变更中存在多少接受的变更请求？
 
 ## 描述
 
-Review如 [reivew ](https://github.com/chaoss/wg-evolution/blob/master/metrics/Reviews.md)中定义。 接受的 review 是指相应变更最终合并到项目代码库的 review。 接受的 review 可以链接到源代码的一个或多个变更，对应于提出后最终合并的变更。
+变更请求如 [变更请求](https://github.com/chaoss/translations/tree/main/chinese/wg-evolution/code-development-process-quality/Change_Requests.md)中定义。 接受的变更请求是指相应变更最终合并到项目代码库的变更请求。 接受的变更请求可以链接到源代码的一个或多个变更，对应于提出后最终合并的变更。
 
 例如，在 GitHub 中，当一个 pull request 被接受时，所有包含在其中的提交都会被合并（也许被 squashed，也许被 rebased）到相应的 git 仓库。 GitLab 的 merge request 同样适用。 对于 Gerrit，一次 code review 通常对应一次提交。
 
@@ -12,18 +12,18 @@ Review如 [reivew ](https://github.com/chaoss/wg-evolution/blob/master/metrics/R
 ## 目标
 
 * 编码活动量。  
-  接受的代码 review 是项目活动的代理。 统计一个项目对应的仓库集中接受的代码review，可以让您了解该项目中导致实际变更的整体编码活动。 当然，该指标不是唯一用于跟踪编码活动量的指标。
+  接受的变更请求是项目活动的代理。 统计一个项目对应的仓库集中接受的变更请求，可以让您了解该项目中导致实际变更的整体编码活动。 当然，该指标不是唯一用于跟踪编码活动量的指标。
 
 
 ## 实现
 
 **聚合器：**
 
-* 计数。 一段时间内接受的 review 的总数。
-* 比率。 一段时间内接受的 review 占 review 总数的比率。
+* 计数。 一段时间内接受的变更请求的总数。
+* 比率。 一段时间内接受的变更请求占变更请求总数的比率。
 
 **参数：**
-* 时间段。 考虑接受的 review 的开始日期和结束日期。 默认：永久。
+* 时间段。 考虑接受的变更请求的开始日期和结束日期。 默认：永久。
 
 * 源代码标准。 算法。 默认：所有文件均为源代码。  
   如果我们专注于源代码，则需要一个标准来确定一个文件是否为源代码的一部分。
@@ -68,20 +68,20 @@ Review如 [reivew ](https://github.com/chaoss/wg-evolution/blob/master/metrics/R
     .es(index=git, q="title:Merge* OR files:0", timefield=grimoire_creation_date).trend().color(#ffb745).label("Trend")
     ```
     * 如[上文所述 GitHub 情况](#specific-description-github)，有时难以识别合并。 您可能已经注意到，在此示例中，我们的表达式基于 GrimoireLab 的 Git 索引。 此外，它还可以应用于使用 Git 仓库的任意相似环境，而不仅仅是 GitHub。
-  - 屏幕截图示例： ![GrimoireLab 接受的 review 指标截图](https://github.com/chaoss/wg-evolution/blob/master/metrics/images/reviews_accepted_GrimoireLab.png)
+  - 屏幕截图示例： ![GrimoireLab 接受的变更请求指标截图](images/change-reuqest-accepted_1.png)
 
 
 ### 数据收集策略
 
 **具体描述：GitHub**
 
-在 GitHub 的情况下，接受的 review 定义为“变更包含在 git 仓库中的拉取请求”，前提是它提出对源代码文件的变更。
+在 GitHub 的情况下，接受的变更请求定义为“变更包含在 git 仓库中的拉取请求”，前提是它提出对源代码文件的变更。
 
-然而，接受 review 的方式不止一种，并不是所有方式都能让人容易地识别出 review 是否被接受。 拉取请求被接受并合并是最简单的情况（或变基，或压缩并合并）。 在这种情况下，可以很容易地确定拉取请求是否被接受，并通过对 GitHub API 的查询找到相应提交。
+然而，接受变更请求的方式不止一种，并不是所有方式都能让人容易地识别出变更请求是否被接受。 拉取请求被接受并合并是最简单的情况（或变基，或压缩并合并）。 在这种情况下，可以很容易地确定拉取请求是否被接受，并通过对 GitHub API 的查询找到相应提交。
 
-但也可以关闭 review，并在 git 仓库中手动合并提交。 在这种情况下，提交仍然可以在 git 仓库中找到，因为其哈希值与拉取请求在 GitHub API 中的相同。
+但也可以关闭变更请求，并在 git 仓库中手动合并提交。 在这种情况下，提交仍然可以在 git 仓库中找到，因为其哈希值与拉取请求在 GitHub API 中的相同。
 
-在更困难的情况下，也可以关闭 review，手动将提交变基，或压缩后合并。 对于这些情况，哈希值是不同的，只能通过日期和作者的近似匹配和/或比较差异来跟踪 git 仓库中的提交。
+在更困难的情况下，也可以关闭变更请求，手动将提交变基，或压缩后合并。 对于这些情况，哈希值是不同的，只能通过日期和作者的近似匹配和/或比较差异来跟踪 git 仓库中的提交。
 
 从确定是否被接受的角度来看，问题在于如果其被手动包含在 git 仓库中，那么确定拉取请求被接受的唯一方法就是在 git 仓库中找到相应的提交。
 
@@ -93,7 +93,7 @@ Review如 [reivew ](https://github.com/chaoss/wg-evolution/blob/master/metrics/R
 
 **具体描述：GitLab**
 
-在 GitLab 的情况下，接受的 review 定义为“变更包含在 git 仓库中的合并请求”，前提是它提出对源代码文件的变更。
+在 GitLab 的情况下，接受的变更请求定义为“变更包含在 git 仓库中的合并请求”，前提是它提出对源代码文件的变更。
 
 强制性参数（对于 GitLab）：
 
@@ -101,7 +101,7 @@ Review如 [reivew ](https://github.com/chaoss/wg-evolution/blob/master/metrics/R
 
 **具体描述：Gerrit**
 
-在 Gerrit 的情况下，接受的 review 定义为“变更包含在 git 仓库中的变更集”，前提是其提出对源代码文件的变更。
+在 Gerrit 的情况下，接受的变更请求定义为“变更包含在 git 仓库中的变更集”，前提是其提出对源代码文件的变更。
 
 强制性参数（对于 Gerrit）：无。
 

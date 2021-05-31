@@ -50,11 +50,11 @@
 
 **定量**
 
-* 每个组织的提交百分比
-* 每个组织的合并/审查百分比
+* 每个组织的commits百分比
+* 每个组织的merges/reviews百分比
 * 每个组织的任意种类的贡献者百分比
 * 每个组织贡献的代码行数百分比
-* 每个组织提出的问题百分比
+* 每个组织提出的问题(issues)百分比
 * [贡献组织](https://github.com/chaoss/metrics/blob/master/activity-metrics/contributing-organizations.md) - 贡献组织的数量是多少？
 * [新的贡献组织](https://github.com/chaoss/metrics/blob/master/activity-metrics/new-contributing-organizations.md) - 新的贡献组织的数量是多少？
 * 新贡献者组织 - 随着时间推移，对项目作出贡献的新组织。
