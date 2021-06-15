@@ -16,13 +16,13 @@
 ## 实现
 
 * 从发生贡献的数据源收集数据。
-* 确定贡献者的从属关系，对其从属组织作出良好评估。
-* 关联贡献相关信息，并将其分配至适当组织。
-* 根据项目需求，您可能需要考虑：如何处理多个电子邮件地址、随时间变化的从属关系或承包商与员工的关系等问题。
+* 确定贡献者的从属关系，对其从属组织作出准确评估。
+* 关联贡献相关信息，并将其匹配至适当组织。
+* 根据项目需求，您可能需要考虑：如何处理多个电子邮件地址、随时间变化的从属关系，承包商与员工的关系等问题。
 
 ### 提供指标的工具
 
-* [GrimoireLab](https://chaoss.github.io/grimoirelab) 支持组织多元化指标，开箱即用。 [GrimoireLab SortingHat](https://github.com/chaoss/grimoirelab-sortinghat) 管理身份。 [GrimoireLab Hatstall](https://github.com/chaoss/grimoirelab-hatstall) 用户界面可以修正人员的组织从属关系，甚至记录从属关系的变化。
+* [GrimoireLab](https://chaoss.github.io/grimoirelab) 支持组织多元化指标，开箱即用。 [GrimoireLab SortingHat](https://github.com/chaoss/grimoirelab-sortinghat) 管理身份信息。 [GrimoireLab Hatstall](https://github.com/chaoss/grimoirelab-hatstall) 用户界面可以修正人员的组织从属关系，甚至记录从属关系的变化。
   * 查看 [Bitergia Analytics 的 CHAOSS 实例](https://chaoss.biterg.io/app/kibana#/dashboard/Community-Structure-by-Organization)示例可视化效果。
   * 从 [GrimoireLab Sigils 面板集合](https://chaoss.github.io/grimoirelab-sigils/panels/community-structure-by-organization/)下载并导入包含此指标可视化效果示例的现成仪表板。
   * 按照说明向任意 GrimoreLab Kibiter 仪表板添加一个示例可视化效果：
@@ -59,7 +59,7 @@
 * [新的贡献组织](https://github.com/chaoss/metrics/blob/master/activity-metrics/new-contributing-organizations.md) - 新的贡献组织的数量是多少？
 * 新贡献者组织 - 随着时间推移，对项目作出贡献的新组织。
 * 贡献组织的数量 - 在一段时间内参与项目的组织数量。
-* 大象系数 - 如果 50% 的社区成员受雇于同一家公司，那就形成了房间里的大象。 正式：员工完成 50% 提交的最小公司数量
+* 大象系数 - 如果 50% 的社区成员受雇于同一家公司，那就形成了房间里的大象。 公式：员工完成 50% 提交次数的最小公司数量
 * [从属多元化](https://github.com/chaoss/metrics/blob/master/activity-metrics/contributor-diversity.md) - 单个公司的贡献者在所有贡献者中的比例。 又称：来自不同公司的维护者。 贡献者从属多元化。
 * 在具有代码所有权概念的项目中，从属于每个组织的代码所有者的百分比，按其拥有的代码的重要性/大小/LoC 和共同所有者的数量进行权衡。
 

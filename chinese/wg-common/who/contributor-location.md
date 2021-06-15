@@ -9,7 +9,7 @@
 
 ## 目标
 
-确定贡献者的全球位置，了解工作惯例和时区。 确定没有贡献的区域，以提高这些区域的参与度；
+用于确定贡献者的全球位置，了解他们的工作实践和时区。 确定没有贡献的区域，以提高这些区域的参与度；
 
 
 ## 实现
@@ -20,10 +20,10 @@
 按以下条件筛选贡献：
 
 * **位置。**将各区域的位置分组，以进行多级报告。 在此语境中，“位置”是一个故意模糊的术语，可以指地区、国家、州、地域或时区。
-* **时间段。**开始日期和完成日期。 默认：永久。 计算贡献的时期。
+* **时间段。**开始日期和完成日期。 默认：永久。 计算贡献的时期段。
 * **贡献者类型**，例如：
   * 仓库作者
-  * 问题作者
+  * 议题作者
   * 代码审查(Code Review)参与者
   * 邮件列表作者
   * 事件参与者
@@ -41,7 +41,7 @@
 可视热图： ![Contributor Location Heatmap](images/contributor-location_heatmap.png) 来源： [https://blog.bitergia.com/2018/11/20/ubers-community-software-development-analytics-for-open-source-offices](https://blog.bitergia.com/2018/11/20/ubers-community-software-development-analytics-for-open-source-offices)
 
 
-### 提供指标的工具
+### 提供度量的工具
 
 *   GrimoireLab
 *   Augur
