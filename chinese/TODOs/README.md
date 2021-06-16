@@ -2,7 +2,7 @@
 
 **Goal:** To evaluate the gap between the translations and the latest metrics. We setup this TODO list. Our final goal is to make Translations version be released together with Metrics on 2021/09. 
 
-| Focus Area | TODO | State | Assginee | Planned Completion Date |
+| Focus Area | TODO | State | Assignee | Planned Completion Date |
 | --- | --- | --- | --- | --- |
 | wg-diversity-inclusion | [Communication Inclusivity](https://github.com/chaoss/wg-diversity-inclusion/blob/master/focus-areas/communication-inclusivity) translation | TODO | ? | ? |
 | wg-diversity-inclusion | [Contributor Community Diversity](https://github.com/chaoss/wg-diversity-inclusion/blob/master/focus-areas/contributor-community-diversity)  translation | TODO | ? | ? |
