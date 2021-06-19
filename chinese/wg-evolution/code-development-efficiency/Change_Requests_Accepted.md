@@ -4,15 +4,14 @@
 
 ## 描述
 
-变更请求如 [变更请求](https://github.com/chaoss/translations/tree/main/chinese/wg-evolution/code-development-process-quality/Change_Requests.md)中定义。 接受的变更请求是指相应变更最终合并到项目代码库的变更请求。 接受的变更请求可以链接到源代码的一个或多个变更，对应于提出后最终合并的变更。
+变更请求如 [变更请求](https://chaoss.community/metric-change-requests/)中定义。 接受的变更请求是指相应变更最终合并到项目代码库的变更请求。 接受的变更请求可以链接到源代码的一个或多个变更，对应于提出后最终合并的变更。
 
 例如，在 GitHub 中，当一个 pull request 被接受时，所有包含在其中的提交都会被合并（也许被 squashed，也许被 rebased）到相应的 git 仓库。 GitLab 的 merge request 同样适用。 对于 Gerrit，一次 code review 通常对应一次提交。
 
 
 ## 目标
 
-* 编码活动量。  
-  接受的变更请求是项目活动的代理。 统计一个项目对应的仓库集中接受的变更请求，可以让您了解该项目中导致实际变更的整体编码活动。 当然，该指标不是唯一用于跟踪编码活动量的指标。
+* 编码活跃度。接受的变更请求是项目活动度的一个维度。 统计一个项目对应的仓库集中接受的变更请求，可以让你了解该项目中导致实际变更的整体编码活动。 当然，该指标不是唯一用于跟踪编码活跃度的指标。
 
 
 ## 实现
@@ -43,7 +42,7 @@
 可以通过应用上述定义的筛选条件，按参与者类型或参与者群组进行分组。 可以用条形图表示，X 轴为时间。 每个条形代表一定时间（如一个月）内更改代码的接受的 reivew 。
 
 
-### 提供指标的工具
+### 提供度量的工具
 
 * [Grimoirelab](https://chaoss.github.io/grimoirelab) 为 GitHub 拉取请求开箱即用地提供该指标，还为 GitLab 合并请求和 Gerrit 变更集提供构建类似可视化效果的数据。
   - 查看 [Bitergia Analytics 的 CHAOSS 实例](https://chaoss.biterg.io/app/kibana#/dashboard/a7b3fd70-ef16-11e8-9be6-c962f0cee9ae)示例。

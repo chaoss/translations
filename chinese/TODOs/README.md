@@ -11,13 +11,13 @@
 | wg-diversity-inclusion | [Leadership](https://github.com/chaoss/wg-diversity-inclusion/blob/master/focus-areas/leadership) revision | TODO | ? | ? |
 | wg-diversity-inclusion | [Project and Community](https://github.com/chaoss/wg-diversity-inclusion/blob/master/focus-areas/project-and-community) revision | TODO | ? | ? |
 | wg-diversity-inclusion | [Recognition of Good Work](https://github.com/chaoss/wg-diversity-inclusion/blob/master/focus-areas/recognition-of-good-work) translation | TODO | ? | ? |
-| wg-evolution | [Code Development Activity](https://github.com/chaoss/wg-evolution/blob/master/focus-areas/code-development-activity) revision | TODO | ? | ? |
-| wg-evolution | [Code Development Efficiency](https://github.com/chaoss/wg-evolution/blob/master/focus-areas/code-development-efficiency) revision | TODO | ? | ? |
-| wg-evolution | [Code Development Process Quality](https://github.com/chaoss/wg-evolution/blob/master/focus-areas/code-development-process-quality) revision | TODO | ? | ? |
-| wg-evolution | [Issue Resolution](https://github.com/chaoss/wg-evolution/blob/master/focus-areas/issue-resolution) revision | TODO | ? | ? |
-| wg-evolution | [Community Growth](https://github.com/chaoss/wg-evolution/blob/master/focus-areas/community-growth) revision | TODO | ? | ? |
+| wg-evolution | [Code Development Activity](https://github.com/chaoss/wg-evolution/blob/master/focus-areas/code-development-activity) revision | PR opened | Yehui Wang | end of June |
+| wg-evolution | [Code Development Efficiency](https://github.com/chaoss/wg-evolution/blob/master/focus-areas/code-development-efficiency) revision | PR opened | Yehui Wang | end of June |
+| wg-evolution | [Code Development Process Quality](https://github.com/chaoss/wg-evolution/blob/master/focus-areas/code-development-process-quality) revision | PR opened | Yehui Wang | end of June |
+| wg-evolution | [Issue Resolution](https://github.com/chaoss/wg-evolution/blob/master/focus-areas/issue-resolution) revision | PR opened | Yehui Wang | end of June |
+| wg-evolution | [Community Growth](https://github.com/chaoss/wg-evolution/blob/master/focus-areas/community-growth) revision | PR opened | Yehui Wang | end of June |
 | wg-value | [Social Value](https://github.com/chaoss/wg-value/blob/master/focus-areas/social-value) revision | TODO | ? | ? |
-| wg-value | [Organizational Value](https://github.com/chaoss/wg-value/blob/master/focus-areas/organizational-value) revision | Opened PR | zhongjun2 | ? |
+| wg-value | [Organizational Value](https://github.com/chaoss/wg-value/blob/master/focus-areas/organizational-value) revision | TODO |Opened PR | zhongjun2 |
 | wg-value | [Individual Value](https://github.com/chaoss/wg-value/blob/master/focus-areas/individual-value) revision | TODO | ? | ? |
 | wg-value | [Communal Value](https://github.com/chaoss/wg-value/blob/master/focus-areas/communal-value) revision | TODO | ? | ? |
 | wg-risk | [Business Risk](https://github.com/chaoss/wg-risk/blob/master/focus-areas/business-risk) revision | TODO | ? | ? |
@@ -25,3 +25,4 @@
 | wg-risk | [Licensing](https://github.com/chaoss/wg-risk/blob/master/focus-areas/licensing) revision | TODO | ? | ? |
 | wg-risk | [Security](https://github.com/chaoss/wg-risk/blob/master/focus-areas/security) revision | TODO | ? | ? |
 | wg-risk | [Transparency](https://github.com/chaoss/wg-risk/blob/master/focus-areas/transparency) translation | TODO | ? | ? |
+>>>>>>> revise the whole wg-evolution Chinese translations
