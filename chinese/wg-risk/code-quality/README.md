@@ -1,24 +1,24 @@
-# Code Quality
+# 代码质量
 
-## Goal: Understand the quality of a given software package.
+## 目标：了解给定软件包的质量。
 
-### Question: What is the complexity of the source code? 
-- Metric: [Code complexity](code-complexity.md)
+### 问题：代码的复杂度如何？ 
+- 指标: [代码复杂度](code-complexity.md)
 
-### Question: How well is the code tested? 
-- Metric: [Test coverage](test-coverage.md)
+### 问题：代码的测试情况如何？ 
+- 指标: [测试覆盖率](test-coverage.md)
 
-### Question: What is the human labor invested in this package? 
-- Metric: Boehm’s model (cocomo) of human labor invested in an entire repo and the subparts of that repo. 
+### 问题：在软件包中投入的人力是多少？ 
+- 指标: ，描述人力在整个代码仓库的投入和在子仓库的投入的 Boehm 人力模型 (cocomo)。
 
-### Question: What are the documented community processes associated with the development of the source code: 
-- Metric: [Pull Request Process](pull-request-process.md). 
+### 问题：与源代码开发相关的文档社区流程是什么：
+- 指标: [PR流程](pull-request-process.md). 
 
-### Question: What is the total number of bugs? 
-- Metric: Count of total reported bugs 
+### 问题：Bug总数是多少？
+- 指标: 已报告Bug的总数
 
-### Question: What is the average age of reported bugs? 
-- Metric: Average age of bugs
+### 问题：已报告Bug的平均存在时间是多少？
+- 指标: Bug平均存在时间
 
-### Question: What is the open bugs that are defects vs. feature requests
-- Metric: Ration of defect/feature request bugs
+### 问题：开放的bugs中缺陷与特性需求的比例如何
+- 指标: 缺陷/特性需求bug的比例

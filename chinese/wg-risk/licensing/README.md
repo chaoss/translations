@@ -1,27 +1,27 @@
-# Licensing 
+# 许可证制度
 
-## Goal: Understand the potential IP issues associated with a given software package’s use.
+## 目标：了解与给定软件包的使用相关的潜在 IP 问题。
 
-### Question: What are the package software licenses? 
-- Metric: File License Declarations
+### 问题：什么是软件包许可证? 
+- 指标: 声明的文件许可证
 
-### Question: Are there license conflicts? 
-- Metric: Comparison of known licenses 
+### 问题：是否存在许可证冲突？
+- 指标: 对已知许可证的比较 
 
-### Question: How many different licenses are there? 
-- Metric: [License Count](license-count.md)    
+### 问题：有多少种不同的许可证？
+- 指标: [许可证计数](license-count.md)    
 
-### Question: How much of the code base has declared licenses? 
-- Metric: [License Coverage](license-coverage.md)
+### 问题：有多少代码库已声明许可证？ 
+- 指标: [许可证覆盖度](license-coverage.md)
 
-### Question: What are the declared software package licenses? 
-- Metric: [License Declared](license-declared.md)
+### 问题：声明的软件包许可证是什么？
+- 指标: [声明的许可证](license-declared.md)
 
-### Question: What methods (tooling) were used to identify software package licenses? 
-- Metric: License Identification Methods
+### 问题：使用什么方法（工具）来识别软件包许可证？ 
+- 指标: 许可证识别方法
 
-### Question: What percentage of a project’s licenses are OSI approved open source licenses?
-- Metric: [OSI Approved Licenses](osi-approved-licenses.md)
+### 问题：OSI 批准的开源许可证占项目许可证的百分比是多少？
+- 指标: [OSI批准的许可证](osi-approved-licenses.md)
 
-### Question: Does the software package have an associated SPDX document as a standard expression of dependencies, licensing, and security-related issues?
-- Metric: [SPDX Document](spdx-document.md)
+### 问题：软件包是否有附带 SPDX 文档作为依赖软件、许可证和安全相关问题的标准表述？
+- 指标: [SPDX 文档](spdx-document.md)

@@ -1,18 +1,18 @@
-## 1. Description
+## 1. 描述
 
-## 2. Use Cases
+## 2. 用例
 
-## 3. Formula
+## 3. 公式
 
-## 4. Sample Filter and Visualization
+## 4. 筛选条件样例及可视化
 
-## 5. Sample Implementation
+## 5. 实施样例
 
-## 6. Known Implementations
+## 6. 已知的实施案例
 
-## 7. Test Cases (Examples)
+## 7. 测试用例 (样例)
 
-## 8. External References (Literature)
+## 8. 外部参考链接 (文本的)
 
 
 

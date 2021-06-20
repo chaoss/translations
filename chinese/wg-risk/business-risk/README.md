@@ -1,36 +1,36 @@
-# Business Risk (How likely am I to be stuck with this project and no community)
+# 商业风险（当没有社区的情况下，项目被困住的可能性有多大）
 
-## Goal: Understand how active a community exists around/to support a given software package.
+## 目标：了解社区围绕/支持给定软件包的活跃程度。
 
-### Question: Are there alternatives to the software package? 
-- Metric: Alternative packages
+### 问题: 软件包有替代品吗? 
+- 指标: 替代软件包
 
-### Question: How quickly are issues resolved? 
-- Metric: [Average Issue Resolution Time](average-issue-resolution-time.md)
+### 问题: issue多快能够被解决? 
+- 指标: [平均issue解决时间](average-issue-resolution-time.md)
 
-### Question: What is the average age of an open issue? 
-- Metric: [Open Issues Age](issues-open-age.md)
-- Metric: [Issues Volume](issues-volume.md)
+### 问题: 一个issue的平均开启时间? 
+- 指标: [开启状态Issues的存在时间](issues-open-age.md)
+- 指标: [issue数量](issues-volume.md)
 
-### Question: What is the activity within the community?
-- Metric 1 Option: Mailing list traffic
-- Metric 2 Option: Pull request discussion
-- Metric 3 Option: IRC activity
+### 问题：社区内有哪些活动？
+- 备选指标1: 邮件列表流量
+- 备选指标2: PR讨论情况
+- 备选指标3: IRC活跃度
 
-### Question: How many forks are there of the project? 
-- Metric: Forks
+### 问题：项目有多少个fork？
+- 指标: Fork数
 
-## Goal: (Business risk: How do I measure sustainability)     
+## 目标：（业务风险：我如何衡量可持续性） 
 
-### Question: What is the distribution of work in the community? 
-- Metric: [Elephant Factor](elephant-factor.md)
-- Metric: [Bus Factor](bus-factor.md)
+### 问题：社区工作的分配是怎样的？
+- 指标: [大象系数](elephant-factor.md)
+- 指标: [巴士系数](bus-factor.md)
 
-### Question: How robust and diverse are the contributors to a community? 
-- Metric: [Committers](committers.md)
-- Metric: [Lines of Code](lines-of-code.md)
+### 问题：社区的贡献者的健壮性和多样性如何？
+- 指标: [Committers](committers.md)
+- 指标: [代码行数](lines-of-code.md)
 
-## Goal: Determine security debt of project in relation main project 
+## 目标：确定主项目相关项目的安全负债
 
-### Question: How many security bug fixes exist on the mainline that need to be ported to the downstreams.
-- Metric: Known bugs in fixed bugs in mainline but not in the downstreams - how far out of date are you with security updates
+### 问题：主线上有多少安全漏洞修复需要移植到下游项目。
+- 指标: 主线中已修复错误中的已知bug，但在下游中没有 - 下游已经多久没有同步安全更新了

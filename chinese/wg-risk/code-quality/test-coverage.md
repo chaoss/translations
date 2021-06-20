@@ -1,44 +1,44 @@
-# Test Coverage
+# 测试覆盖率
 
-Question: How well is the code tested?
+问题：代码的测试情况如何？
 
-## Description
-Test coverage describes how much of a given code base is covered by at least one test suite. There are two principle measures of test coverage. One is the percentage of **subroutines** covered in a test suite run against a repository. The other principle expression of test coverage is the percentage of **statements** covered during the execution of a test suite. The CHAOSS metric definition for "Test Coverage" includes both of these discrete measures.
+## 描述
+测试覆盖率描述了至少一个测试套覆盖了多少给定的代码库。测试覆盖率有两个主要的衡量标准。一个是针对代码仓库运行的测试套中涵盖的**子例程**的百分比。测试覆盖率的另一个主要含义是测试套执行期间覆盖的**语句**的百分比。 “测试覆盖率”在CHAOSS中的度量定义包括这两个单独的度量指标。
 
-Programming languages refer to **subroutines** specifically as "functions", "methods", "routines" or, in some cases, "subprograms." The percentage of coverage for a particular repository is constrained in this definition to methods defined within a specific repository, and does not include coverage of libraries or other software upon which the repository is dependent.
+编程语言将**子例程** 特指为“函数”、“方法”、“例程”，或在某些情况下称为“子程序”。在此定义中，特定代码仓库的覆盖率仅限于特定代码仓库中定义的方法，并且不包括代码仓库所依赖的库或其他软件的覆盖率。
 
-## Objectives
+## 目标
 
-Understanding the level of test coverage is a signal of software quality. Code with little test coverage signals a likelihood of less rigorous software engineering practice and a corresponding increased probability that defects will be detected upon deployment and use. 
+了解测试覆盖水平是代表软件质量的一个信号。测试覆盖率低的代码表明软件工程实践可能不太严格，并且相应地增加了在部署和使用时检测到缺陷的可能性。
 
-## Implementation 
+## 实现
 
-Statements include variable assignments, loop declarations, calls to system functions, "go to" statements, and the common `return` statement at the completion of a function or method, which may or may not include the return of a `value` or `array of values`.
+语句包括变量赋值、循环声明、对系统函数的调用、“go to”语句以及函数或方法完成时常见的 `return` 语句，其中可能包括也可能不包括返回 `value` 或 `value数组`。
 
-#### Subroutine Coverage
+#### 子例程覆盖率
 
 ![Subroutine Coverage](images/test-coverage_subroutine-coverage.png)
 
-#### Statement Coverage
+#### 语句覆盖率
 
 ![Statement Coverage](images/test-coverage_statement-coverage.png)
 
-### Filters
-* Time: Changes in test coverage over time provide evidence of project attention to maximizing overall test coverage. Specific parameters include `start date` and `end date` for the time period.
-* Code_File: Each repository contains a number of files containing code. Filtering coverage by specific file provides a more granular view of test coverage. Some functions or statements may lead to more severe software failures than others. For example, untested code in the `fail safe` functions of a safety critical system are more important to test than `font color` function testing.
-* Programming_Language: Most contemporary open source software repositories contain several different programming languages. The coverage percentage of each `Code_File`
+### 筛选条件
+* 时间：按时间变化过滤测试覆盖率，可以帮助项目关注最大化整体测试覆盖率。具体参数包括时间段的“开始日期”和“结束日期”。
+* 代码文件: 每个代码仓库都包含许多代码文件。按特定文件过滤覆盖率提供了更精细的测试覆盖率视图。某些函数或语句可能会导致比其他函数或语句更严重的软件故障。例如，安全关键系统的“故障安全”功能中未经测试的代码比“字体颜色”功能测试更重要。
+* 编程语言：大多数当代开源软件代码仓库都包含几种不同的编程语言。每个`Code_File`的覆盖率都可以按照编程语言进行过滤。
 
-### Tools Providing the Metric
-- Providing Test Coverage Information 
-  * [Python's primary testing framework is PyTest](https://docs.pytest.org/en/latest/)
-  * [The Flask web framework for python enables coverage testing](http://flask.pocoo.org/docs/1.0/tutorial/tests/)
-  * [Open source code coverage tools for common languages like Java, C, and C++ are available from my sites, including this one.](https://stackify.com/code-coverage-tools/#OpenSource)
+### 提供指标的工具
+- 提供测试覆盖率信息 
+  * [Python 的主要测试框架PyTest](https://docs.pytest.org/en/latest/)
+  * [用于 Python 的 Flask Web 框架支持覆盖测试](http://flask.pocoo.org/docs/1.0/tutorial/tests/)
+  * [可以从我的网站获取用于 Java、C 和 C++ 等常用语言的开源代码覆盖工具，包括这个。](https://stackify.com/code-coverage-tools/#OpenSource)
 
-- Storing Test Coverage Information 
-  * [Augur](https://github.com/chaoss/augur) has test coverage implemented as a table that is a child of the main repository table in its repository. Each time test coverage is tested, a record is made for each file tested, the testing tool used for testing and the number of statements/subroutines in the file, as well as the number of statements and subroutines tested. By recording test data at this level of granularity, Augur enables `Code_File` and `Programming_Language` summary level statistics and filters.
+- 存储测试覆盖率信息 
+  * [Augur](https://github.com/chaoss/augur) 将测试覆盖率展现为一个表格，该表是其代码仓库中主代码仓库表格的子项。每次计算测试覆盖率时，都会对每个测试的文件、测试使用的测试工具和文件中的语句/子程序的数量以及测试的语句和子程序的数量进行记录。通过在此粒度记录测试数据，Augur 启用了“代码文件”和“编程语言”汇总级别的统计信息和过滤器。
 
 
-## References
+## 参考资料
 1. J.H. Andrews, L.C. Briand, Y. Labiche, and A.S. Namin. 2006. Using Mutation Analysis for Assessing and Comparing Testing Coverage Criteria. IEEE Transactions on Software Engineering 32, 8: 608–624. https://doi.org/10.1109/TSE.2006.83
 2. Phyllis G Frankl and Oleg Iakounenko. 1998. Further Empirical Studies of Test Effectiveness. In Proceedings of the 6thACM SIGSOFT International Symposium on Foundations of Software Engineering, 153–162.
 3. Phyllis G Frankl and Stewart N Weiss. 1993. An Experimental Comparison of the Effectiveness of Branch Testing and Data Flow Testing. EEE Transactions on SoftwareEngineering 19, 8: 774–787.

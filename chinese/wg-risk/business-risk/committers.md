@@ -26,7 +26,7 @@ Grimoire Lab 显示提交者
 ![Grimoire Lab Committers](images/committers_grimoire-lab.png)
 
 ### 筛选条件
-* 时间：较新的不同提交者的数量可能比项目（仓库）整个生命周期内的人数更能清楚地表明参与项目的人数。
+* 时间：较新的不同Committer的数量可能比项目（仓库）整个生命周期内的人数更能清楚地表明参与项目的人数。
 * 提交大小：按代码行数衡量的少量代码提交可以被排除，避免已知问题
 * 提交次数：某一时间段内提交次数少于某个最低限度的贡献者可从这一数字中排除。
 
@@ -52,7 +52,7 @@ ORDER BY
 
 该表达式使最终用户能够按提交计数阈值轻松筛选，返回的行数就是仓库的“Total_Committers”。
 
-[Grimoire Lab](https://chaoss.biterg.io/app/kibana#/dashboard/Git) 还额外提供了针对提交者的洞察能力。
+[Grimoire Lab](https://chaoss.biterg.io/app/kibana#/dashboard/Git) 还额外提供了针对Committer的洞察能力。
 
 ## 参考资料
 1. Nora McDonald, Kelly Blincoe, Eva Petakovic, and Sean Goggins. 2014. Modeling Distributed Collaboration on GitHub. Advances in Complex Systems 17(7 & 8).

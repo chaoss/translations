@@ -1,17 +1,17 @@
-# Bill of Materials
+# 软件物料清单
 
-Question: Does the software package have a standard expression of dependencies, licensing, and security-related issues?
+问题：软件包是否对依赖软件、许可证和安全相关问题有标准表达？
 
-## Description
-A software package has a standard expression of dependencies, licensing, and security-related issues. This is an enumeration of a "bill of materials", as as such is not expressed as a metric. It is more accurate to consider this CHAOSS metric as an "inventory of components" that is uniquely important in many risk oriented open source software acquisition conversations.
+## 描述
+软件包具有对依赖软件、许可和安全相关问题的标准表达。这是对“物料清单”的一种枚举，因此不表示为度量指标。将此 CHAOSS 指标视为“组件清单”更为准确，这在许多面向风险的开源软件获取的话题中尤为重要。
 
-## Objectives
-For managers acquiring open source software as part of an IT or Open Source Program Office portfolio, the "Software Bill of Materials" ("SBOM") is an increasingly essential "core piece of management information".  This arises because, as software packages exist in complex software supply chains, it is important to clearly express, in a standardized way, the associated dependencies, licenses, and security-related issues with that software package. A Software Bill of Materials provides a single source document that provides this information both for internal use and downstream distribution of software packages. A Software Bill of Materials assists in how organizations routinize open source work to better integrate with their own open source risk management routines.
+## 目标
+对于获取开源软件作为工作的IT 或开源项目办公室的管理人员来说，“软件物料清单”（“SBOM”）是越来越重要的“核心管理信息”。出现这种情况是因为，由于软件包存在于复杂的软件供应链中，因此必须以标准化的方式清楚地表达该软件包的相关依赖软件、许可证和安全相关问题。软件物料清单提供了一个单一的源文档，该文档为软件包的内部使用和下游分发提供了信息。软件物料清单有助于组织如何常规化开展开源工作，以更好地与他们自己的开源风险管理程序集成。
 
-## Implementation
+## 实现
 
-### Visualization
-DoSOCSv2 was used to scan the GitHub Repository. Here are some of the core license values from the scan, which may be used as an example of the format:
+### 可视化
+DoSOCSv2 用于扫描 GitHub代码仓库。以下是扫描中的一些核心许可证，可用作格式示例：
 ```
 LicenseID: LicenseRef-See-URL
 LicenseName: See-URL
@@ -44,16 +44,15 @@ LicenseCrossReference:
 LicenseComment: found by nomos
 ```
 
-### Tools Providing the 
-[DoSOCSv2](https://github.com/DoSOCSv2/DoSOCSv2) embedded as an [Augur](https://github.com/chaoss/augur) Service.
+### 提供指标的工具
+[DoSOCSv2](https://github.com/DoSOCSv2/DoSOCSv2) 被集成到[Augur](https://github.com/chaoss/augur) 中，作为一项服务提供。
 
-A file by file SBOM is available with Augur configured using the DoSOCSv2 plugin.  The relevant parts of the database schema are illustrated below. The most important points, from an SBOM perspective, is simpler than the software licensing metrics described elsewhere.  For the SBOM, we simply look at the enumeration of:
-* Packages
-* Package_Files
-* Files (which may be, but are unlikely to be also included in other packages).
-License information is included as part of an SBOM, but the complexity of license identification is clarified in the [License_Count](https://github.com/chaoss/wg-risk/blob/master/metrics/License_Count.md), [License_Coverage](https://github.com/chaoss/wg-risk/blob/master/metrics/License_Coverage.md), and [License_Declared](https://github.com/chaoss/wg-risk/blob/master/metrics/License_Declared.md) metrics.
-![SBOM](images/software-bill-of-materials_license.png)
+使用 DoSOCSv2 插件配置的 Augur 可以逐一对文件生成 SBOM。数据库模型的相关部分如下所示。从 SBOM 的角度来看，最重要的一点是它比其他描述的软件许可证的指标更简单。对于SBOM，我们只需要简单地看一些枚举值：
+* 软件包
+* 包文件
+* 文件（可能有，不太可能包含在其他包中）。
+许可证信息作为 SBOM 的一部分包含在内，但许可证识别的复杂性体现在 [许可证计数](https://github.com/chaoss/wg-risk/blob/master/metrics/License_Count.md)、[ 许可证覆盖度](https://github.com/chaoss/wg-risk/blob/master/metrics/License_Coverage.md) 和 [声明的许可证](https://github.com/chaoss/wg-risk/blob/master /metrics/License_Declared.md) 等指标中。![SBOM](images/software-bill-of-materials_license.png)
 
-## Resources
+## 资源
 https://spdx.org  
 https://www.ntia.doc.gov/SoftwareTransparency  

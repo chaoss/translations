@@ -1,8 +1,8 @@
-# Transparency 
+# 透明度
 
-## Goal: Understand how transparent a given software package is with respect to dependencies, licensing (?), security processes, etc. 
+## 目标：了解给定软件包在依赖软件、许可证(?)、安全流程等方面的透明度。
 
-### Question: Does the software package have a standard expression of dependencies, licensing, and security-related issues? 
-- Metric: [Identify Software Bill of Materials](software-bill-of-materials.md)
+### 问题：软件包是否对依赖软件、许可证和安全相关问题有标准表达？
+- 指标: [确定软件物料清单](software-bill-of-materials.md)
 
-## Goal: Understand what dimensions of the project are visible organically or through metrics; or, in contrast, what is not visible but should be? 
+## 目标：了解项目的哪些维度是实体可见的或通过指标可见的；或者，相反，什么是不可见但应该可见的？
