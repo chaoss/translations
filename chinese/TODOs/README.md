@@ -17,7 +17,7 @@
 | wg-evolution | [Issue Resolution](https://github.com/chaoss/wg-evolution/blob/master/focus-areas/issue-resolution) revision | TODO | ? | ? |
 | wg-evolution | [Community Growth](https://github.com/chaoss/wg-evolution/blob/master/focus-areas/community-growth) revision | TODO | ? | ? |
 | wg-value | [Social Value](https://github.com/chaoss/wg-value/blob/master/focus-areas/social-value) revision | TODO | ? | ? |
-| wg-value | [Organizational Value](https://github.com/chaoss/wg-value/blob/master/focus-areas/organizational-value) revision | TODO | ? | ? |
+| wg-value | [Organizational Value](https://github.com/chaoss/wg-value/blob/master/focus-areas/organizational-value) revision | Opened PR | zhongjun2 | ? |
 | wg-value | [Individual Value](https://github.com/chaoss/wg-value/blob/master/focus-areas/individual-value) revision | TODO | ? | ? |
 | wg-value | [Communal Value](https://github.com/chaoss/wg-value/blob/master/focus-areas/communal-value) revision | TODO | ? | ? |
 | wg-risk | [Business Risk](https://github.com/chaoss/wg-risk/blob/master/focus-areas/business-risk) revision | TODO | ? | ? |
