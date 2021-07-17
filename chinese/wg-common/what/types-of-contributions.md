@@ -1,4 +1,5 @@
 # 贡献类型
+
 问题：正在进行哪些类型的贡献？
 
 ## 描述
@@ -63,6 +64,7 @@ _其他考量：_
 - 大规模挖掘贡献类型时，要考虑机器人的活动。
 
 ## 参考资料
+
 - https://medium.com/@sunnydeveloper/revisiting-the-word-recognition-in-foss-and-the-dream-of-open-credentials-d15385d49447
 - https://24pullrequests.com/contributing
 - https://smartbear.com/blog/test-and-monitor/14-ways-to-contribute-to-open-source-without-being/

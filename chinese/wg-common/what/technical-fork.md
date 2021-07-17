@@ -1,4 +1,5 @@
 # 技术分支
+
 问题: 在代码开发平台一个开源项目有多少技术分支？
 
 ## 描述
@@ -16,9 +17,11 @@
 
 ### 可视化效果
 **Augur 实现**  
+
 ![Augur 实现](images/technical-fork_augur-fork.png)
 
 **GrimoireLab 实现**  
+
 ![GrimoireLab 实现](images/technical-fork_grimoirelab-fork.png)
 
 ### 提供度量的工具

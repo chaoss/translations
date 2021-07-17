@@ -26,10 +26,15 @@
 
 
 ### 可视化效果
+
 ![GrimoireLab 面板：效率时序总览](images/time-to-first-response_efficiency-timing-overview.png)
+
 ---------
+
 ![Augur 可视化效果：首次响应时长热图 ](images/time-to-first-response_augur-ttc-1.png)
+
 ---------
+
 ![Augur 可视化效果：平均响应时间](images/time-to-first-response_augur-ttc-2.png)
 
 ### 提供指标的工具

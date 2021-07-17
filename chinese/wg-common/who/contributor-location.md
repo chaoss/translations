@@ -36,9 +36,17 @@
 
 ### 可视化效果
 
-点密度图： ![Contributor Location Dot Density Map](images/contributor-location_dot-density-map.png) 来源：[https://chaoss.biterg.io/goto/a62f3584a41c1c4c1af5d04b9809a860](https://chaoss.biterg.io/goto/a62f3584a41c1c4c1af5d04b9809a860)
+点密度图：
 
-可视热图： ![Contributor Location Heatmap](images/contributor-location_heatmap.png) 来源： [https://blog.bitergia.com/2018/11/20/ubers-community-software-development-analytics-for-open-source-offices](https://blog.bitergia.com/2018/11/20/ubers-community-software-development-analytics-for-open-source-offices)
+![Contributor Location Dot Density Map](images/contributor-location_dot-density-map.png)
+
+来源：[https://chaoss.biterg.io/goto/a62f3584a41c1c4c1af5d04b9809a860](https://chaoss.biterg.io/goto/a62f3584a41c1c4c1af5d04b9809a860)
+
+可视热图： 
+
+![Contributor Location Heatmap](images/contributor-location_heatmap.png) 
+
+来源： [https://blog.bitergia.com/2018/11/20/ubers-community-software-development-analytics-for-open-source-offices](https://blog.bitergia.com/2018/11/20/ubers-community-software-development-analytics-for-open-source-offices)
 
 
 ### 提供度量的工具
