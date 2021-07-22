@@ -61,7 +61,9 @@
     * 筛选条件：`state` 为 `closed`。
     * 指标 Y 轴：`Count` 聚合，`# Closed Issues` 自定义标签。
     * 桶 X 轴：`Date Histogram` 聚合，`closed_at` 字段，`Weekly` 间隔（或任何适合您需求的间隔，取决于您希望在图表中可视化的整个时间范围），`Time` 自定义标签。
-  - 屏幕截图示例：![GrimoireLab screenshot of metric issues_closed](images/issues-closed_grimoirelab.png)。
+  - 屏幕截图示例：
+   
+    ![GrimoireLab screenshot of metric issues_closed](images/issues-closed_grimoirelab.png)。
 
 
 ### 数据收集策略

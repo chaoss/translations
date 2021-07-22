@@ -59,7 +59,9 @@
     * Y 轴 1：`Sum` 聚合，`lines_added` 字段，`Lines Added` 自定义标签
     * Y 轴 2：`Sum` 聚合， `painless_inverted_lines_removed_git` 字段，`Lines Removed` 自定义标签
     * X 轴：`Date Histogram` 聚合，`grimoire_creation_date` 字段，`Auto` 间隔，`Time` 自定义标签
-  - 屏幕截图示例： ![GrimoireLab 指标截图 Code_Changes_Lines](images/code-changes-lines_grimoirelab.png)
+  - 屏幕截图示例： 
+    
+    ![GrimoireLab 指标截图 Code_Changes_Lines](images/code-changes-lines_grimoirelab.png)
 
 
 ### 数据收集策略

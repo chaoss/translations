@@ -29,6 +29,7 @@
 * 问题的状态（例如，仅查看当前未解决问题）
 
 ### 可视化效果
+
 ![GrimoireLab 的示例可视化效果](images/issue-response-time_grimoirelab.png)
 
 ### 提供指标的工具
