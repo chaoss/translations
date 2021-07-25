@@ -5,14 +5,14 @@
 
 ## 描述
 
-变更请求如[变更请求](https://github.com/chaoss/translations/tree/main/chinese/wg-evolution/code-development-process-quality/Change_Requests.md)中定义。 拒绝的变更请求是指没有合并到项目代码库而最终关闭的变更请求。
+变更请求如[变更请求](https://chaoss.community/metric-change-requests/)中定义。 拒绝的变更请求是指没有合并到项目代码库而最终关闭的变更请求。
 
 例如，在 GitHub 中，当一个 pull request 在没有合并的情况下被关闭，而其中引用的提交在 git 仓库中找不到时，其可以被认为遭到拒绝（但请参阅以下详细讨论）。 GitLab 的 merge request 同样适用。 对于 Gerrit，代码变更请求可以正式“放弃”，这也是该系统中检测拒绝的变更请求的方式。
 
 
 ## 目标
 
-* 编码活动量。 拒绝的代码变更请求是项目活动的代理。 统计一个项目对应的仓库集合中被拒绝的代码变更请求，可以让您了解该项目中未导致实际变更的整体编码活动。 当然，该指标不是唯一用于跟踪编码活动量的指标。
+* 编码活跃度。 拒绝的代码变更请求是项目活动度的一个维度。 统计一个项目对应的仓库集合中被拒绝的代码变更请求，可以让您了解该项目中未导致实际变更的整体编码活动。 当然，该指标不是唯一用于跟踪编码活跃度的指标。
 
 
 
@@ -48,7 +48,7 @@
 
 在 GitHub 的情况下，拒绝的变更请求定义为“关闭的拉取请求，其变更未包含在 git 仓库中”，前提是它提出对源代码文件的变更。
 
-请参阅[接受的变更请求](https://github.com/chaoss/translations/blob/main/chinese/wg-evolution/code-development-efficiency/Change_Requests_Accepted.md)中关于 GitHub 具体描述的讨论，因其在此处也适用。
+请参阅[接受的变更请求](https://chaoss.community/metric-change-requests-accepted/)中关于 GitHub 具体描述的讨论，因其在此处也适用。
 
 强制性参数（对于 GitHub）：
 
