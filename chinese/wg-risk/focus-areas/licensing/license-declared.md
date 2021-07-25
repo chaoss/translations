@@ -5,11 +5,7 @@
 ## 描述
 软件包中声明的特定许可证及其数量。 它涵盖了软件源代码和文档源文件。 此指标是许可证的枚举，以及带有该特定许可证声明的文件数。 例如：
 
-| SPDX 许可证类型 | 带有许可证的文件数 |
-| ---------- | --------- |
-| MIT        | 44        |
-| AGPL       | 2         |
-| Apache     | 88        |
+![License types with number of files](images/license-declared_number-of-files-license-type.png)
 
 
 ## 目标
@@ -39,5 +35,6 @@ Augur-SPDX 包以 Augur 插件的形式提供，并使用这一数据模型存�
 * `licenses` 与 `files` 和 `packages_files` 关联。 每个 `file` 都可能具有不止一个 `licenses` 引用，例如 `license` 声明在`Augur-SPDX` 每次扫描仓库之间均可能发生变化。 每个 `package` 均按照最近一次进行存储，每个 `packages_file` 都可以有一个 `license` 声明。
 
 ## 参考资料
+
 * https://spdx.org/
 * https://www.fossology.org

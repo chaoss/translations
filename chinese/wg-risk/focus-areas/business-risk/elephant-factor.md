@@ -48,7 +48,9 @@
     * 选择 `git` 索引
     * 指标切片大小：`Count` 聚合
     * 桶剪接切片：`Terms` 聚合，`author_org_name` 字段，`metric: Count` 排序依据，`Descending` 排列，`500` 大小
-  - 屏幕截图示例： ![GrimoireLab 指标截图 Elephant_Factor](images/elephant-factor_grimoire-lab.png)
+  - 屏幕截图示例： 
+   
+    ![GrimoireLab 指标截图 Elephant_Factor](images/elephant-factor_grimoire-lab.png)
 
 
 ## 参考资料
