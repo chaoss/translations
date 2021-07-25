@@ -10,7 +10,7 @@ Question: 一个活动在多大程度上考虑并关注与会者、演讲者和�
 
 - 确定与会者、演讲者和志愿者的[多元化](https://github.com/drnikki/open-demographics)，包括性别、年龄、母语和有无残疾。
 - 帮助留住来自不同背景的与会者、演讲者和志愿者，为未来的活动做准备。
-- 根据主题、会议和路线分组时，确定演讲者组是否多样化
+- 根据主题、会议和路线分组时，确定一组演讲者是否多样化
 - 确定新的与会者、演讲者和志愿者是否来自多样化的背景。
 - 确定主题和会议选举委员会是否多样化。
 - 与他人分享与会者、演讲者和志愿者的人口统计信息
@@ -38,7 +38,7 @@ Question: 一个活动在多大程度上考虑并关注与会者、演讲者和�
  
 ## 参考资料
 
-*感谢 Nikki Stevens 和 Marie Nordin 分享经验和资源，这些经验和资源使得这个度量标准得以创建。*
+*感谢 Nikki Stevens 和 Marie Nordin 分享经验和资源，这些经验和资源使得这个度量指标得以创建。*
 
 - http://nikkistevens.com/open-demographics/
 - https://github.com/chaoss/wg-diversity-inclusion/tree/master/demographic-data
