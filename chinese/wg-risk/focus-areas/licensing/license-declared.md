@@ -5,7 +5,7 @@
 ## 描述
 软件包中声明的特定许可证及其数量。 它涵盖了软件源代码和文档源文件。 此指标是许可证的枚举，以及带有该特定许可证声明的文件数。 例如：
 
-![License types with number of files](images/license-declared_number-of-files-license-type-source.png)
+![License types with number of files](images/license-declared_number-of-files-license-type.png)
 
 
 ## 目标
