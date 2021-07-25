@@ -36,7 +36,9 @@
 
 * 包
 * Package_Files
-* 文件（有可能也包含在其他包中，但可能性不大）。 许可证信息被添加为 SBOM 的一部分，但许可证鉴别的复杂性详述于 [License_Count](https://github.com/chaoss/wg-risk/blob/master/metrics/License_Count.md)、[License_Coverage](https://github.com/chaoss/wg-risk/blob/master/metrics/License_Coverage.md) 和 [License_Declared](https://github.com/chaoss/wg-risk/blob/master/metrics/License_Declared.md) 指标。 ![SBOM](images/spdx-document_sbom.png)
+* 文件（有可能也包含在其他包中，但可能性不大）。 许可证信息被添加为 SBOM 的一部分，但许可证鉴别的复杂性详述于 [License_Count](https://github.com/chaoss/wg-risk/blob/master/metrics/License_Count.md)、[License_Coverage](https://github.com/chaoss/wg-risk/blob/master/metrics/License_Coverage.md) 和 [License_Declared](https://github.com/chaoss/wg-risk/blob/master/metrics/License_Declared.md) 指标。 
+ 
+  ![SBOM](images/spdx-document_sbom.png)
 
 
 ## 参考资料

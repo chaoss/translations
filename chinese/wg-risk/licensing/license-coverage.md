@@ -18,12 +18,15 @@
 ### 可视化效果
 
 #### Augur 输出的 Web 演示：
+
 ![Augur JSON Output](images/license-coverage_augur-json-output.png)
 
 #### Augur 输出的 JSON 演示：
+
 ![Augur Web Output](images/license-coverage_augur-web-output.png)
 
 ### 提供指标的工具
+
  1. [Augur](https://github.com/chaoss/augur)
 
 可以提取和筛选数据以获得所需信息。 可在任意 [Augur 风险页面](http://augur.osshealth.io/repo/Zephyr-RTOS/zephyr/risk)找到许可证覆盖数据。
