@@ -47,7 +47,9 @@
 * [Grimoirelab](https://chaoss.github.io/grimoirelab) 为 GitHub 拉取请求、GitLab 合并请求和 Gerrit 变更集开箱即用地提供该指标。
   - 查看 [Bitergia Analytics 的 CHAOSS 实例](https://chaoss.biterg.io/app/kibana#/dashboard/GitHub-Pull-Requests)示例。
   - 基于 GitHub 拉取请求数据，从 [GrimoireLab Sigils 面板集合](https://chaoss.github.io/grimoirelab-sigils/panels/github-pullrequests/)下载并导入包含此指标可视化效果示例的现成仪表板。
-  - 屏幕截图示例： ![GrimoireLab 变更请求指标截图](images/change-requests_screenshot.png)
+  - 屏幕截图示例： 
+   
+    ![GrimoireLab 变更请求指标截图](images/change-requests_screenshot.png)
 
 
 ### 数据收集策略

@@ -53,7 +53,9 @@
     * 指标：`Count` 聚合，`# Issues Active` 自定义标签。
     * 桶：`Date Range` 聚合，`metadata__updated_on` 字段，`now-1M` 自从（或任何适合您需求的间隔），`now` 直到，将“自定义标签”留空以查看图例中的具体日期。
     * 查看右上角的时间选择器，确保将其设置为包括数据的整个故事，这样我们就不会根据其创建日期排除任何项目。
-  - 屏幕截图示例：![GrimoireLab screenshot of metric issues_active](images/issues-active_grimoirelab.png)。
+  - 屏幕截图示例：
+   
+    ![GrimoireLab screenshot of metric issues_active](images/issues-active_grimoirelab.png)。
 
 ### 数据收集策略
 

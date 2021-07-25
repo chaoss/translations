@@ -68,7 +68,9 @@
     .es(index=git, q="title:Merge* OR files:0", timefield=grimoire_creation_date).trend().color(#ffb745).label("Trend")
     ```
     * 如[上文所述 GitHub 情况](#specific-description-github)，有时难以识别合并。 您可能已经注意到，在此示例中，我们的表达式基于 GrimoireLab 的 Git 索引。 此外，它还可以应用于使用 Git 仓库的任意相似环境，而不仅仅是 GitHub。
-  - 屏幕截图示例： ![GrimoireLab 接受的变更请求指标截图](images/change-reuqest-accepted_1.png)
+  - 屏幕截图示例： 
+   
+    ![GrimoireLab 接受的变更请求指标截图](images/change-requests-accepted_1.png)
 
 
 ### 数据收集策略

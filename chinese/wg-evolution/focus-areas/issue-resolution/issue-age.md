@@ -24,9 +24,13 @@
 
 ### 可视化效果
 
-1. 未关闭的issue汇总数据<br /> ![未解决issue的汇总数据](images/issue-age_open-issue-data.png)
+1. 未关闭的issue汇总数据
+   
+   ![未解决issue的汇总数据](images/issue-age_open-issue-data.png)
 
-2. 每天未关闭issue的数量<br /> ![每天未解决issue的计数](images/issue-age_open-issue-count-timeseries.png)
+2. 每天未关闭issue的数量
+   
+   ![每天未解决issue的计数](images/issue-age_open-issue-count-timeseries.png)
 
 ### 提供指标的工具
 
