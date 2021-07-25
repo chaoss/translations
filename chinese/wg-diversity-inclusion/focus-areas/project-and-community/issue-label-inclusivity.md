@@ -1,4 +1,5 @@
 # 问题标签包容性
+
 问题：对于邀请新贡献者、熟练贡献者、非代码贡献者和其他类型贡献者来说，项目问题标注得如何？
 
 
@@ -33,10 +34,14 @@
 - 代码相关问题与文档相关问题
 
 #### 可视化效果
-![grimoire lab 示例 #1](images/issue-label-inclusivity_grimoire-lab-viz-example1.png) ![grimoire lab 示例 #2](images/issue-label-inclusivity_grimoire-lab-viz-example2.png)
 
+![grimoire lab 示例 #1](images/issue-label-inclusivity_grimoire-lab-viz-example1.png)
 
-![kubernetes 项目的示例标签](images/issue-label-inclusivity_kubernetes-labels-example.png) 来自：https://github.com/kubernetes/kubernetes/labels
+![grimoire lab 示例 #2](images/issue-label-inclusivity_grimoire-lab-viz-example2.png)
+
+![kubernetes 项目的示例标签](images/issue-label-inclusivity_kubernetes-labels-example.png)
+
+ 来自：https://github.com/kubernetes/kubernetes/labels
 
 #### 提供指标的工具:
 - Grimoire Lab
