@@ -22,14 +22,19 @@
 
 * 回复者的角色，例如，只计算维护者的响应
 * 自动响应，例如，通过筛选排除机器人和其他自动回复，只统计真人回复
-* 活动类型，如问题（见指标[问题响应时间](https://github.com/chaoss/wg-evolution/blob/master/metrics/Issue_Response_Time.md)）、电子邮件、聊天信息、变更请求
+* 活动类型，如问题（见指标[问题响应时间](https://chaoss.community/metric-issue-response-time/)）、电子邮件、聊天信息、变更请求
 
 
 ### 可视化效果
+
 ![GrimoireLab 面板：效率时序总览](images/time-to-first-response_efficiency-timing-overview.png)
+
 ---------
+
 ![Augur 可视化效果：首次响应时长热图 ](images/time-to-first-response_augur-ttc-1.png)
+
 ---------
+
 ![Augur 可视化效果：平均响应时间](images/time-to-first-response_augur-ttc-2.png)
 
 ### 提供指标的工具
