@@ -1,7 +1,9 @@
-## Placeholder
+# 公共价值
 
-**目标:** Placeholder
+目标：确定项目(包括下游项目)是否对社区用户或者贡献者有价值。
 
-| 度量指标 | 问题 |
+| 关注领域 | 目标 |
 | --- | --- |
-| Placeholder | Placeholder |
+| [社会化聆听](social-listening.md) | 如何从情感分析中衡量一个社区互动的价值和社区的”声誉“？ |
+| [项目发展速度](project-velocity.md) | 如何衡量一个组织发展的速度？ |
+| [项目流行度](project-popularity.md) | 如何衡量一个开源项目的流行度？ |

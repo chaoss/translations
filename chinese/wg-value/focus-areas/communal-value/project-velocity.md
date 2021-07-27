@@ -1,22 +1,22 @@
-# 项目速度
+# 项目发展速度
 
-问题：什么是组织的发展速度？
+问题：如何衡量组织的发展速度？
 
 ## 描述
 
-项目速度是指问题数、拉取请求数、提交量和贡献者数，用作“创新”的指标。
+项目的发展速度是指议题数量、代码提交数量、更改请求数量和贡献者个数，作为“创新”的指标。
 
 ## 目标
 
-让开源计划办公室 (OSPO) 管理员能够比较项目组合的项目速度。
+给开源项目办公室 (OSPO) 经理提供一种通过比较项目组合去衡量项目发展速度的方法。
 
-OSPO 管理员可以使用项目速度指标来：
+OSPO 经理可以使用以下项目发展速度指标来：
 
-- 报告开源项目与内部项目的项目速度对比
-- 比较项目组合中的项目速度
-- 找出哪些项目的发展超出了内部贡献者的范围（在筛选内部贡献者与外部贡献者时）
-- 找出值得参与的有前途领域
-- 突出未来几年可能成为成功平台的领域
+- 比较开源项目与内部项目的发展速度
+- 比较项目组合中的项目发展速度
+- 找出哪些项目外部贡献者的发展超出了内部贡献者（在筛选内部贡献者与外部贡献者时）
+- 找出值得投入的有前途的领域
+- 找出未来几年可能成功的领域
 
 [参见示例](https://www.cncf.io/blog/2017/06/05/30-highest-velocity-open-source-projects)
 
@@ -24,10 +24,10 @@ OSPO 管理员可以使用项目速度指标来：
 
 基本指标包括：
 
-- [关闭的问题](https://github.com/chaoss/wg-evolution/blob/master/metrics/Issues_Closed.md)
-- [评论数](https://github.com/chaoss/wg-evolution/blob/master/metrics/Reviews.md)
-- [代码变更数](https://github.com/chaoss/wg-evolution/blob/master/metrics/Code_Changes.md)
-- [提交者数](https://github.com/chaoss/wg-risk/blob/master/metrics/Committers.md)
+- [关闭的问题个数](https://github.com/chaoss/wg-evolution/blob/master/metrics/Issues_Closed.md)
+- [评论个数](https://github.com/chaoss/wg-evolution/blob/master/metrics/Reviews.md)
+- [修改代码的人数](https://github.com/chaoss/wg-evolution/blob/master/metrics/Code_Changes.md)
+- [代码提交人数](https://github.com/chaoss/wg-risk/blob/master/metrics/Committers.md)
 
 ### 筛选条件
 
@@ -37,10 +37,10 @@ OSPO 管理员可以使用项目速度指标来：
 
 ### 可视化效果
 
-* X 轴：代码更改的对数刻度
-* Y 轴：问题数和评论数之和的对数刻度。
-* 点大小：提交者
-* 点为项目
+* X 轴：代码提交的总次数的对数
+* Y 轴：提交问题总个数和评论总个数之和的对数。
+* 点大小：代码提交人数
+* 点为某个项目
 
 ![cncf](images/project-velocity_visualization.png)
 
@@ -52,7 +52,7 @@ OSPO 管理员可以使用项目速度指标来：
 
 ## 参考资料
 
-- [Can Open Source Innovation work in the Enterprise?](https://www.threefivetwo.com/blog/can-open-source-innovation-work-in-the-enterprise)
-- [Open Innovation for a High Performance Culture](https://www.nearform.com/blog/want-a-high-performing-culture-make-way-for-open-innovation)
-- [Open Source for the Digital Enterprise](https://www.cio.com/article/3213146/open-source-is-powering-the-digital-enterprise.html)
-- [Highest Velocity Open Source Projects](https://www.cncf.io/blog/2017/06/05/30-highest-velocity-open-source-projects)
+- [开源创新能在企业中发挥作用吗?](https://www.threefivetwo.com/blog/can-open-source-innovation-work-in-the-enterprise)
+- [高绩效文化的开放式创新](https://www.nearform.com/blog/want-a-high-performing-culture-make-way-for-open-innovation)
+- [数字企业的开源](https://www.cio.com/article/3213146/open-source-is-powering-the-digital-enterprise.html)
+- [发展最快的开源项目](https://www.cncf.io/blog/2017/06/05/30-highest-velocity-open-source-projects)
