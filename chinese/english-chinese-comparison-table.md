@@ -16,3 +16,4 @@
 | review | 审查，审核 |
 | tools providing the metric | 提供度量的工具 |
 | visualizations | 可视化效果 |
+| committer | committer |
