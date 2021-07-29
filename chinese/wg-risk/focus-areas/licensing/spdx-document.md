@@ -12,7 +12,7 @@
 
 ### 筛选条件
 
-[augur-SPDX](https://github.com/chaoss/augur-spdx) 用于扫描 GitHub 仓库 [Zephyr](https://github.com/zephyrproject-rtos/zephyr)。 以下是从扫描中以 JSON 格式识别的许可证：
+[augur-SPDX](https://github.com/chaoss/augur-spdx) 用于扫描 GitHub 代码仓 [Zephyr](https://github.com/zephyrproject-rtos/zephyr)。 以下是从扫描中以 JSON 格式识别的许可证：
 ```
 {
   "0": "Apache-2.0",
@@ -37,7 +37,7 @@
 * 包
 * Package_Files
 * 文件（有可能也包含在其他包中，但可能性不大）。 许可证信息被添加为 SBOM 的一部分，但许可证鉴别的复杂性详述于 [License_Count](https://github.com/chaoss/wg-risk/blob/master/metrics/License_Count.md)、[License_Coverage](https://github.com/chaoss/wg-risk/blob/master/metrics/License_Coverage.md) 和 [License_Declared](https://github.com/chaoss/wg-risk/blob/master/metrics/License_Declared.md) 指标。 
- 
+
   ![SBOM](images/spdx-document_sbom.png)
 
 

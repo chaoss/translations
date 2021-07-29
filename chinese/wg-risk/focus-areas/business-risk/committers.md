@@ -26,16 +26,16 @@ Grimoire Lab 显示提交者
 ![Grimoire Lab Committers](images/committers_grimoire-lab.png)
 
 ### 筛选条件
-* 时间：较新的不同Committer的数量可能比项目（仓库）整个生命周期内的人数更能清楚地表明参与项目的人数。
+* 时间：较新的不同Committer的数量可能比项目（代码仓）整个生命周期内的人数更能清楚地表明参与项目的人数。
 * 提交大小：按代码行数衡量的少量代码提交可以被排除，避免已知问题
 * 提交次数：某一时间段内提交次数少于某个最低限度的贡献者可从这一数字中排除。
 
 ## 提供指标的工具
-Augur 为仓库中的每条提交记录维护了一个表格。
+Augur 为代码仓中的每条提交记录维护了一个表格。
 
 ![Augur Committers](images/committers_augur.png)
 
-要评估一个仓库的不同提交者，可以使用以下 SQL 或文档化的 API 端点：
+要评估一个代码仓的不同提交者，可以使用以下 SQL 或文档化的 API 端点：
 ```sql
 SELECT
     cmt_author_name,
@@ -50,7 +50,7 @@ ORDER BY
     counter DESC
 ```
 
-该表达式使最终用户能够按提交计数阈值轻松筛选，返回的行数就是仓库的“Total_Committers”。
+该表达式使最终用户能够按提交计数阈值轻松筛选，返回的行数就是代码仓的“Total_Committers”。
 
 [Grimoire Lab](https://chaoss.biterg.io/app/kibana#/dashboard/Git) 还额外提供了针对Committer的洞察能力。
 

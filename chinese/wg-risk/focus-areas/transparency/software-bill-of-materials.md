@@ -11,7 +11,7 @@
 ## 实现
 
 ### 可视化
-DoSOCSv2 用于扫描 GitHub代码仓库。以下是扫描中的一些核心许可证，可用作格式示例：
+DoSOCSv2 用于扫描 GitHub代码仓。以下是扫描中的一些核心许可证，可用作格式示例：
 ```
 LicenseID: LicenseRef-See-URL
 LicenseName: See-URL
