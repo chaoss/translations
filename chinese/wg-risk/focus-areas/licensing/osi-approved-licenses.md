@@ -28,7 +28,7 @@ Augur 在项目的“风险”页面下提供该指标。
 
 ### 数据收集策略
 
-从代码库提取许可证列表，与许可证覆盖率指标相同。 将许可证列表与 [Licenses.json](https://raw.githubusercontent.com/spdx/license-list-data/master/json/licenses.json) 比较，记录 OSI 批准的许可证数量。 计算 OSI 许可证列表上文件的百分比。
+从代码仓提取许可证列表，与许可证覆盖率指标相同。 将许可证列表与 [Licenses.json](https://raw.githubusercontent.com/spdx/license-list-data/master/json/licenses.json) 比较，记录 OSI 批准的许可证数量。 计算 OSI 许可证列表上文件的百分比。
 
 ## 资源
 

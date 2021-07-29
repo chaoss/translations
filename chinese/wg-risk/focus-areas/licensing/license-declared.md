@@ -16,7 +16,7 @@
 ## 实现
 
 ### 筛选条件
-* 时间：仓库依赖项随时间变化，可能导致仓库中声明的许可证也发生变化。 除了掌握已有许可证的基本信息外之外，跟踪许可证存在的主要动机之一是关注意外的新许可证引入。
+* 时间：代码仓依赖项随时间变化，可能导致代码仓中声明的许可证也发生变化。 除了掌握已有许可证的基本信息外之外，跟踪许可证存在的主要动机之一是关注意外的新许可证引入。
 * 已声明和未声明：单独枚举具有许可证声明的文件和没有许可证声明的文件。
 
 ### 提供指标的工具
@@ -28,11 +28,11 @@
  2. [Augur-SPDX](https://github.com/chaoss/augur-spdx)
 
 Augur-SPDX 包以 Augur 插件的形式提供，并使用这一数据模型存储文件级许可证信息。 具体而言：
-* 每个 `package`（repository）都可以有一个声明的或未声明的许可证，由仓库中所有文件的扫描决定。
+* 每个 `package`（repository）都可以有一个声明的或未声明的许可证，由代码仓中所有文件的扫描决定。
 * 每个 `package` 还可以具有多个不同的非代码`documents`，这其中是 SPDX 许可证声明。
-* 每个 `file` 可以与一个或多个 `packages_files` 关联。 通过 `files` 和 `packages_files` 之间的关系，Augur-SPDX 让大量仓库中的一个文件可以成为多个包的一部分，尽管在实践中这似乎不太可行。
+* 每个 `file` 可以与一个或多个 `packages_files` 关联。 通过 `files` 和 `packages_files` 之间的关系，Augur-SPDX 让大量代码仓中的一个文件可以成为多个包的一部分，尽管在实践中这似乎不太可行。
 * `packages` 和 `packages_files` 在两个方向上都具有一对多的关系。 本质上，这让每个 `file` 都更有可能成为多个 `package` 的一部分，同样的，每个 `package` 通常都将包含许多 `package_files`。
-* `licenses` 与 `files` 和 `packages_files` 关联。 每个 `file` 都可能具有不止一个 `licenses` 引用，例如 `license` 声明在`Augur-SPDX` 每次扫描仓库之间均可能发生变化。 每个 `package` 均按照最近一次进行存储，每个 `packages_file` 都可以有一个 `license` 声明。
+* `licenses` 与 `files` 和 `packages_files` 关联。 每个 `file` 都可能具有不止一个 `licenses` 引用，例如 `license` 声明在`Augur-SPDX` 每次扫描代码仓之间均可能发生变化。 每个 `package` 均按照最近一次进行存储，每个 `packages_file` 都可以有一个 `license` 声明。
 
 ## 参考资料
 
