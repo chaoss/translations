@@ -3,9 +3,11 @@
 Pregunta: ¿Tiene el paquete de software un documento SPDX asociado como expresión estándar de dependencias, licencias y problemas relacionados con la seguridad?
 
 ## Descripción
+
 Un paquete de software tiene un documento SPDX asociado como expresión estándar de dependencias, licencias y problemas relacionados con la seguridad. Puede encontrar más información sobre la especificación SPDX en: https://spdx.org/
 
 ## Objetivos
+
 Para los gerentes que adquieren software de código abierto como parte de una cartera de TI o de la Oficina de programas de código abierto, un documento SPDX proporciona una pieza central cada vez más esencial de información de gestión.  Esto surge porque, dado que existen paquetes de software en cadenas de suministro de software complejas, es importante expresar de forma clara y estandarizada las dependencias asociadas, las licencias y los problemas relacionados con la seguridad con ese paquete de software. Un documento SPDX proporciona una única fuente de información tanto para uso interno como para la distribución posterior de paquetes de software. Un documento SPDX ayuda a determinar cómo las organizaciones rutinizan el trabajo de código abierto para integrarse mejor con sus propias rutinas de gestión de riesgos de código abierto.
 
 ## Implementación
@@ -36,10 +38,13 @@ Este documento fue generado por Augur.
 
 * Paquetes
 * Package_Files
-* Archivos (que pueden estar incluidos, pero es poco probable que también se incluyan en otros paquetes). La información de la licencia se incluye como parte de un SBOM, pero la complejidad de la identificación de la licencia se aclara en las métricas [License_Count](https://github.com/chaoss/wg-risk/blob/master/metrics/License_Count.md), [License_Coverage](https://github.com/chaoss/wg-risk/blob/master/metrics/License_Coverage.md)y [License_Declared](https://github.com/chaoss/wg-risk/blob/master/metrics/License_Declared.md). ![SBOM](images/spdx-document_sbom.png)
+* Archivos (que pueden estar incluidos, pero es poco probable que también se incluyan en otros paquetes). La información de la licencia se incluye como parte de un SBOM, pero la complejidad de la identificación de la licencia se aclara en las métricas [License_Count](https://github.com/chaoss/wg-risk/blob/master/metrics/License_Count.md), [License_Coverage](https://github.com/chaoss/wg-risk/blob/master/metrics/License_Coverage.md)y [License_Declared](https://github.com/chaoss/wg-risk/blob/master/metrics/License_Declared.md).
+
+![SBOM](images/spdx-document_sbom.png)
 
 
 ## Referencias
+
 * https://spdx.org
 * https://www.ntia.doc.gov/SoftwareTransparency  
 
