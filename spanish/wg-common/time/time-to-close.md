@@ -45,4 +45,5 @@ El tiempo para cerrar la métrica puede ser contextual según la actividad y los
 * Foro de preguntas y respuestas: depende de la calidad de la respuesta y de la opinión de la persona que hace la pregunta. Se marca una respuesta válida y el proceso se cierra una vez que la persona que pregunta ha encontrado con éxito una respuesta correcta a su pregunta.
 
 ## Referencias
+
 * «Practice P.12: Respond to all submissions» de «Appendix to: Managing Episodic Volunteers in Free/Libre/Open Source Software Communities» de Ann Barcomb, Klaas-Jan Stol, Brian Fitzgerald y Dirk Riehle: https://opus4.kobv.de/opus4-fau/frontdoor/index/index/docId/13519  

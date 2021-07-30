@@ -37,13 +37,21 @@ Por ubicación de la participación. Por ejemplo:
 
 ### Visualizaciones
 
-1. Lista de nombres de contribuyentes (a menudo con información sobre su nivel de participación)<br /> ![Nombres e información de los contribuyentes](images/contributors_top-contributor-info.png)
+1. Lista de nombres de contribuyentes (a menudo con información sobre su nivel de participación)
+  
+![Nombres e información de los contribuyentes](images/contributors_top-contributor-info.png)
 
-2. Número resumido de contribuyentes<br /> ![Número resumido de contribuyentes](images/contributors_summary-contributor-number.png)
+2. Número resumido de contribuyentes
+  
+![Número resumido de contribuyentes](images/contributors_summary-contributor-number.png)
 
-3. Cambio en el número de contribuyentes activos a lo largo del tiempo<br /> ![Crecimiento de contribuyentes](images/contributors_growth.png)
+3. Cambio en el número de contribuyentes activos a lo largo del tiempo
 
-4. Nuevos contribuyentes (ordenar la lista de contribuyentes por fecha de la primera contribución)<br /> ![Nuevos contribuyentes](images/contributors_first-commit-date.png)
+![Crecimiento de contribuyentes](images/contributors_growth.png)
+
+4. Nuevos contribuyentes (ordenar la lista de contribuyentes por fecha de la primera contribución)
+
+![Nuevos contribuyentes](images/contributors_first-commit-date.png)
 
 ### Herramientas que proporcionan la métrica
 
