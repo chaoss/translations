@@ -10,11 +10,14 @@ To include the Chinese translation team, you can mention @chaoss/chinese-transla
 
 ### Maintainers
 
-- [king](https://github.com/king-gao)
 - [Matt Germonprez](https://github.com/germonprez)
 - [ElizabethN](https://github.com/ElizabethN)
+
+Specifically, the maintainers for the Chinese translation are:
+
 - [Clement Li](https://github.com/robekeane)
 - [Xiaoya](https://github.com/xiaoya-Esther)
+- [King](https://github.com/king-gao)
 
 ### Core Contributors
 
