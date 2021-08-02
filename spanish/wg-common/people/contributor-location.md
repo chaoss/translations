@@ -36,9 +36,17 @@ Filtrar contribuciones por:
 
 ### Visualizaciones
 
-Mapa de densidad de puntos: ![Contributor Location Dot Density Map](images/contributor-location_dot-density-map.png) Fuente: [https://chaoss.biterg.io/goto/a62f3584a41c1c4c1af5d04b9809a860](https://chaoss.biterg.io/goto/a62f3584a41c1c4c1af5d04b9809a860)
+Mapa de densidad de puntos:
 
-Mapa de calor visual: ![Contributor Location Heatmap](images/contributor-location_heatmap.png) Fuente:  [https://blog.bitergia.com/2018/11/20/ubers-community-software-development-analytics-for-open-source-offices](https://blog.bitergia.com/2018/11/20/ubers-community-software-development-analytics-for-open-source-offices)
+![Contributor Location Dot Density Map](images/contributor-location_dot-density-map.png)
+
+Fuente: [https://chaoss.biterg.io/goto/a62f3584a41c1c4c1af5d04b9809a860](https://chaoss.biterg.io/goto/a62f3584a41c1c4c1af5d04b9809a860)
+
+Mapa de calor visual:
+
+![Contributor Location Heatmap](images/contributor-location_heatmap.png)
+
+Fuente:  [https://blog.bitergia.com/2018/11/20/ubers-community-software-development-analytics-for-open-source-offices](https://blog.bitergia.com/2018/11/20/ubers-community-software-development-analytics-for-open-source-offices)
 
 
 ### Herramientas que proporcionan la métrica

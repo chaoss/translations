@@ -1,4 +1,5 @@
 # Tipos de contribuciones
+
 Pregunta: ¿Qué tipos de contribuciones se están realizando?
 
 ## Descripción
@@ -63,6 +64,7 @@ _Otras consideraciones:_
 - Tenga en cuenta la actividad de los bots al extraer tipos de contribución a gran escala.
 
 ## Referencias
+
 - https://medium.com/@sunnydeveloper/revisiting-the-word-recognition-in-foss-and-the-dream-of-open-credentials-d15385d49447
 - https://24pullrequests.com/contributing
 - https://smartbear.com/blog/test-and-monitor/14-ways-to-contribute-to-open-source-without-being/

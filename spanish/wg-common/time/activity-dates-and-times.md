@@ -25,8 +25,11 @@ Las personas participan en actividades en proyectos de código abierto en varios
 ### Visualizaciones
 
 ![Date Time Chart 1](images/activity-dates-and-times_1.png)
+
 ![Date Time Chart 2](images/activity-dates-and-times_2.png)
+
 ![Date Time Chart 3](images/activity-dates-and-times_3.png)
+
 ![Date Time Chart 4](images/activity-dates-and-times_4.png)
 
 

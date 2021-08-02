@@ -64,6 +64,7 @@ La diversidad organizacional expresa cuántas organizaciones diferentes particip
 * En proyectos con el concepto de propiedad del código, % de propietarios de código afiliados a cada organización ponderados por la importancia/tamaño/LoC del código que poseen y el número de copropietarios.
 
 ## Referencias
+
 * Posibles implementaciones y referencias:
   * [https://bitergia.gitlab.io/panel-collections/open_source_program_office/organizational-diversity.html](https://bitergia.gitlab.io/panel-collections/open_source_program_office/organizational-diversity.html)
   * [Página de entrada del panel de Kata Containers](https://katacontainers.biterg.io) (parte inferior de esta)
