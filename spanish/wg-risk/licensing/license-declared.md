@@ -3,6 +3,7 @@
 Pregunta: ¿Cuáles son las licencias declaradas del paquete de software?
 
 ## Descripción
+
 El número total y las licencias específicas declaradas en un paquete de software. Esto puede incluir archivos fuente de software y documentación. Esta métrica es una enumeración de licencias y la cantidad de archivos con esa declaración de licencia en particular. Por ejemplo:
 
 | Tipo de licencia de SPDX | Número de archivos con licencia |
@@ -13,6 +14,7 @@ El número total y las licencias específicas declaradas en un paquete de softwa
 
 
 ## Objetivos
+
 El número total y las licencias específicas declaradas es fundamental en varios casos:
 1. La invariabilidad de un paquete de software conlleva múltiples licencias de software y es fundamental en la adquisición de paquetes de software estar al tanto de las licencias declaradas por razones de cumplimiento. Las licencias declaradas pueden proporcionar transparencia para los esfuerzos de cumplimiento de licencias.
 2. Las licencias pueden crear conflictos de modo que no se puedan cumplir todas las obligaciones en todas las licencias de un paquete de software. Las licencias declaradas pueden proporcionar transparencia sobre posibles conflictos de licencias presentes en los paquetes de software.
@@ -20,6 +22,7 @@ El número total y las licencias específicas declaradas es fundamental en vario
 ## Implementación
 
 ### Filtros
+
 * Tiempo: las licencias declaradas en un repositorio pueden cambiar con el tiempo a medida que cambian las dependencias del repositorio. Una de las principales motivaciones para rastrear la presencia de licencias, además del conocimiento básico, es llamar la atención sobre cualquier introducción inesperada de una nueva licencia.
 * Declarada y no declarada: enumeración separada de archivos que tienen declaraciones de licencia y archivos que no las tienen.
 
@@ -39,5 +42,6 @@ El paquete Augur-SPDX se implementa como un complemento de Augur y utiliza este 
 * Las `licencias` están asociadas con `archivos` y `packages_files`. Cada `archivo` podría tener posiblemente más de una referencia de `licencias`, lo cual es posible bajo la condición de que la declaración de `licencias` cambie entre escaneos de `Augur-SPDX` del repositorio. Cada `paquete` se almacena en su forma más reciente, y cada `packages_file` puede tener una declaración de `licencia`.
 
 ## Referencias
+
 * https://spdx.org/
 * https://www.fossology.org

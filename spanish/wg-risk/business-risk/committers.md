@@ -3,6 +3,7 @@
 Pregunta: ¿Cómo de sólidos son los contribuyentes de una comunidad?
 
 ## Descripción
+
 La métrica Committers es el número de personas que han contribuido con «commits» de código en un proyecto. Esta métrica es distinta de la [métrica de CHAOSS más amplia «Contribuyentes»](https://github.com/chaoss/wg-common/blob/master/focus-areas/who/contributors.md), que habla directamente de la única preocupación específica que surge en la evaluación del riesgo por parte de los administradores que deciden qué proyecto de código abierto utilizar.  Si bien no es necesariamente cierto en todos los casos, en general se acepta que cuantos más contribuyentes tenga un proyecto, más probable será que ese proyecto continúe recibiendo actualizaciones, soporte y recursos necesarios. Por lo tanto, la métrica permite a las organizaciones tomar una decisión informada sobre si el número de committers de un proyecto determinado presenta potencialmente un riesgo actual o futuro de que el proyecto pueda ser abandonado o que quede con poco soporte.
 
 ## Objetivos
@@ -26,16 +27,19 @@ De Grimoire Lab mostrando committers
 ![Grimoire Lab Committers](images/committers_grimoire-lab.png)
 
 ### Filtros
+
 * Tiempo: conocer el número más reciente de committers distintos puede indicar más claramente el número de personas que participan en un proyecto que examinar el número durante la vida de un proyecto (repositorio).
 * Tamaño de commit: las confirmaciones pequeñas, medidas por líneas de código, podrían excluirse para evitar un problema conocido
 * Cantidad de commits: los contribuyentes con menos de un umbral mínimo de commit en un período de tiempo podrían ser excluidos de este número.
 
 ## Herramientas que proporcionan la métrica
+
 Augur mantiene una tabla para cada registro de commit en un repositorio.
 
 ![Augur Committers](images/committers_augur.png)
 
 Para evaluar los distintos committers de un repositorio, se pueden utilizar los siguientes endpoints SQL o API documentados:
+
 ```sql
 SELECT
     cmt_author_name,
@@ -55,4 +59,5 @@ Esta expresión permite a un usuario final filtrar por umbrales de recuento de c
 [Grimoire Lab](https://chaoss.biterg.io/app/kibana#/dashboard/Git) también proporciona información sobre los committers.
 
 ## Referencias
+
 1. Nora McDonald, Kelly Blincoe, Eva Petakovic y Sean Goggins. 2014. Modelado de colaboración distribuida en GitHub. Avances en sistemas complejos 17 (7 & 8).
