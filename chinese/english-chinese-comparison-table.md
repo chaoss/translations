@@ -4,7 +4,10 @@
 
 | English | 中文 |
 | --- | --- |
-| metric | 指标 ｜
+| metric | 指标 |
+| visualizations | 可视化效果 |
+| tools providing the metric | 提供指标的工具 |
+| **Evolution**
 | activity | 活跃度 |
 | change request | 变更请求 |
 | data collection strategies |  数据收集策略 |
@@ -15,8 +18,8 @@
 | references | 参考资料 |
 | repository | 代码仓 |
 | review | 审查，审核 |
-| tools providing the metric | 提供度量的工具 |
-| visualizations | 可视化效果 |
 | committer | committer |
-| event | 活动 ｜
-| diversity ｜ 多元化 |
+| **Diversity and Inclusion** 
+| event | 活动 |
+| diversity | 多元化 |
+| sponsorship | 赞助 |
