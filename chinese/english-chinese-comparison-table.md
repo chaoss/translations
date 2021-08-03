@@ -4,6 +4,7 @@
 
 | English | 中文 |
 | --- | --- |
+| metric | 指标 ｜
 | activity | 活跃度 |
 | change request | 变更请求 |
 | data collection strategies |  数据收集策略 |
@@ -17,3 +18,5 @@
 | tools providing the metric | 提供度量的工具 |
 | visualizations | 可视化效果 |
 | committer | committer |
+| event | 活动 ｜
+| diversity ｜ 多元化 |
