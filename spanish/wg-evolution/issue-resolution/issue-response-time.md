@@ -29,6 +29,7 @@ Obtenga información sobre la capacidad de respuesta de una comunidad de código
 * estado de la incidencia (por ejemplo, solo mirar las incidencias abiertas actualmente)
 
 ### Visualizaciones
+
 ![Visualización de ejemplo de GrimoireLab](images/issue-response-time_grimoirelab.png)
 
 ### Herramientas que proporcionan la métrica

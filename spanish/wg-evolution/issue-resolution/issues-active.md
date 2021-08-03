@@ -53,7 +53,9 @@ Estas se podrían agrupar aplicando los filtros definidos previamente. Estas pod
     * Métrica: Agregación `Cantidad`, Etiqueta personalizada `# Incidencias activas`.
     * Cubos: Agregación `Rango de fechas`, Campo `metadata__updated_on`, Desde `now-1M` (o cualquier intervalo que se ajuste a sus necesidades), Hasta `now`, dejar la etiqueta personalizada vacía para ver las fechas específicas en la leyenda.
     * Eche un vistazo al selector de tiempo en la esquina superior derecha para asegurarse de que esté configurado para incluir la historia completa de los datos, de modo que no excluyamos ningún elemento en función de su fecha de creación.
-  - Captura de pantalla de ejemplo: ![GrimoireLab screenshot of metric issues_active](images/issues-active_grimoirelab.png).
+  - Captura de pantalla de ejemplo: 
+   
+  ![GrimoireLab screenshot of metric issues_active](images/issues-active_grimoirelab.png).
 
 ### Estrategias de recopilación de datos
 
