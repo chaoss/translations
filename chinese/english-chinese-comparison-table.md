@@ -23,3 +23,4 @@
 | event | 活动 |
 | diversity | 多元化 |
 | sponsorship | 赞助 |
+| burnout | 倦怠 |
