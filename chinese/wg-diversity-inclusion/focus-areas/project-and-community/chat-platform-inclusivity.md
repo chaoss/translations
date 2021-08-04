@@ -56,9 +56,9 @@
 * **从聊天平台跟踪数据**:
   * 参见支持的数据收集平台 [in Perceval][1].
 * **聊天平台的开源状态**:
-  * 参见 [CHAOSS blog post on open source platform status][2].
-  * 聊天平台是否提供开源客户端应用程序？?
-  * 聊天平台是否提供开源服务器的实现?
+  * 参见 [CHAOSS blog post on open source platform status][2]。
+  * 聊天平台是否提供开源客户端应用程序？
+  * 聊天平台是否提供开源服务器的实现？
   * 聊天平台是否提供了集成数据收集或桥接的Open API?
 * **低带宽连接的特性**:
   * 是否需要使用持久的 Internet 连接(例如 IRC)?
