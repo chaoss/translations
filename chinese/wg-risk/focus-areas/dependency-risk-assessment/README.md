@@ -1,8 +1,8 @@
-# Dependency Risk Assessment 
+# 依赖风险评估
 
-Goal: Understand software dependency risk.
+目标: 了解软件的依赖风险。
 
 
-Metric | Question
+度量指标 | 问题
 --- | ---
-[Upstream Code Dependencies](upstream-code-dependencies.md) | What projects and libraries does my project depend on?
+[上游代码依赖](upstream-code-dependencies.md) |我的项目依赖哪些项目和软件库？
