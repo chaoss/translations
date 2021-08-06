@@ -1,7 +1,11 @@
-## Placeholder
+## 活动多元化
 
-**目标:** Placeholder
+**目标:** 确定活动的多样性和包容性。
 
 | 度量指标 | 问题 |
 | --- | --- |
-| Placeholder | Placeholder |
+| [活动参与者人口统计特征](event-demographics.md) | 一个活动在多大程度上考虑并关注与会者、演讲者和志愿者的人口统计特征? |
+| [多元化入场券](diversity-access-tickets.md) | 如何使用多元化入场券支持活动的多元化和包容性? |
+| [活动行为准则](event-code-of-conduct.md) | 活动行为准则如何支持多元化和包容性? |
+| [活动多元化 - 欢迎家庭成员参与](family-friendly.md) | 让家庭成员共同参与活动如何能够支持活动的多元化和包容性? |
+| [线上活动的时区包容性](time-inclusion.md) | 线上活动的组织者如何考虑其他时区的参会者和演讲者? |
