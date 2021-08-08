@@ -6,3 +6,4 @@
 | --- | --- |
 | [技术分支](technical-fork.md)| 在代码开发平台一个开源项目有多少技术分支？ |
 | [贡献类型](types-of-contributions.md) | 正在进行哪些类型的贡献？ |
+| [编程语言分布](language-distribution.md) | 开源项目中有哪些不同的编程语言，每种编程语言所占的百分比是多少？ |

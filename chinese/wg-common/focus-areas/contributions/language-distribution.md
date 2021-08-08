@@ -6,7 +6,7 @@
 
 项目中所使用编程语言的数量和每种语言所占的百分比可以使人们对代码贡献者所需要的技能以及项目本身的性质有所了解。
 
-## Objectives
+## 目标
 这个度量标准将帮助特定开源项目的新手，同时也为开源项目经理结合他们自己的经验和组织，提供了一个关于项目概况的视角。
 
 在关注价值度量的领域中: 作为求职的一部分，开发人员可以使用这个指标来识别那些深度依赖于他们所使用的编程语言的项目。
@@ -22,7 +22,7 @@
 一般来说，这个度量对开源办项目公室是有用的，社区管理人员的目标是了解哪种语言最突出，哪种语言很少被使用，但是很重要。
 
 ## 实现
-Language distribution takes into account different properties of each file in a repository with an a priori identifiable computer programming language. As new languages emerge, there may be initial periods where counting tools do not recognize their extensions, in which case they may be counted as “other”. Such periods are typically brief.  
+
 编程语言分布使用一种先验的可识别计算机编程语言来考虑代码仓中每个文件的不同属性。当新语言的出现，可能会出现计数工具无法识别其文件后缀的初始阶段，在这种情况下，它们可能被视为“其他”语言。这样的时期通常是短暂的。
 
 ### 过滤条件
@@ -66,9 +66,9 @@ Language distribution takes into account different properties of each file in a 
 
 ### 提供度量的工具
 
-[Augur-Community-Reports](https://github.com/chaoss/augur-community-reports) 代码仓目前提供这个指标。
-[GrimoireLab](https://github.com/chaoss/grimoirelab) 通过识别文件后缀名来提供这个指标。 
-[Augur](https://github.com/chaoss/augur) 在前端提供，同时也通过API endpoint提供.
+* [Augur-Community-Reports](https://github.com/chaoss/augur-community-reports) 代码仓目前提供这个指标。
+* [GrimoireLab](https://github.com/chaoss/grimoirelab) 通过识别文件后缀名来提供这个指标。 
+* [Augur](https://github.com/chaoss/augur) 在前端提供，同时也通过API endpoint提供.
 
 ### 数据收集策略
 代码仓的内容可以通过迭代每个文件来计算，这种方案有几个库支持实现: https://github.com/boyter/scc
