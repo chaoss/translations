@@ -32,7 +32,7 @@ Question: 一个活动在多大程度上考虑并关注与会者、演讲者和�
 
 ### 数据收集策略
 
-- [demographics]during conference registration请求与会者和演讲者在会议登记时做[人口统计调查](http://nikkistevens.com/open-demographics/) 
+- 请求与会者和演讲者在会议登记时做[人口统计调查](http://nikkistevens.com/open-demographics/)
 - 在活动之前、期间或之后使用调查来收集与会者和演讲者的人口统计资料 (例如，使用 [Open Demographics questions](http://nikkistevens.com/open-demographics/))
 - 对于线上活动: 如果线上活动平台支持实时问卷调查，那么使用问卷调查可以更好地了解参加活动的人的背景
  
