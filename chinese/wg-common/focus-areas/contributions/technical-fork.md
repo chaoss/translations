@@ -1,12 +1,18 @@
-# 技术分支
+# 技术分支(fork)
 
-问题: 在代码开发平台一个开源项目有多少技术分支？
+问题: 在代码托管平台一个开源项目有多少技术分支(fork)？
 
 ## 描述
-一个技术分支是一个项目分布式版本控制的拷贝。技术分支数表示在同一代码开发平台上该项目的拷贝数。
+一个技术分支(fork)是一个项目分布式版本控制的副本。技术分支(fork)数表示在同一代码开发平台上该项目的副本数。
+
+**注意:**  许多时候代码克隆（clone）和 [技术分支（technical fork）](https://github.com/chaoss/translations/blob/main/chinese/wg-common/focus-areas/contributions/technical-fork.md) 可以互换使用，但是两者之间是有区别的。 一个 [技术分支（technical fork）](https://github.com/chaoss/translations/blob/main/chinese/wg-common/focus-areas/contributions/technical-fork.md) 是同一代码托管平台上代码仓的副本, 而 代码克隆（clone）是本地计算机上的副本。
+
+![Technical Fork & Clones](images/technical-fork-clones_fork-clones.png)
+
+[图片来源于 Stakeoverflow](https://stackoverflow.com/questions/9257533/what-is-the-difference-between-origin-and-upstream-on-github/9257901#9257901)
 
 ## 目标
-技术分支度量的目标是确定在代码开发平台上存在的该项目的拷贝数。对技术分支的分析可以提供对分支意图的深入了解 (建立分支的不同意图，如对上游有贡献的分支和没有贡献的分支)。
+技术分支(fork)度量的目标是确定在代码开发平台上存在的该项目的副本数。对技术分支(fork)的分析可以提供对分支意图的深入了解 (建立分支的不同意图，如对上游有贡献的分支和没有贡献的分支)。
 
 ## 实现
 
