@@ -1,7 +1,8 @@
-## Placeholder
+## 个人价值
 
-**目标:** Placeholder
+**目标:** 识别一个项目对我作为个人用户或贡献者是否有价值
 
 | 度量指标 | 问题 |
 | --- | --- |
-| Placeholder | Placeholder |
+[组织项目技能需求](organizational-project-skill-demand.md) | 有多少组织在使用这个项目？如果我精通这个项目，是否可以雇用我？
+[就业机会](job-opportunities.md) | 有多少招聘信息要求项目技术与技能?
