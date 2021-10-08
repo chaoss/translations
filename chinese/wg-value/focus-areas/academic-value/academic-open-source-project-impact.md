@@ -45,15 +45,18 @@
 * Augur
 * [CiteAS](https://citeas.org/)
 * [开源软件杂志 (JOSS)](https://joss.theoj.org/)
-* GitHub 见解
+* [GitHub Citation](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-on-github/about-citation-files)
+* [arXiv.org code](https://blog.arxiv.org/2020/10/08/new-arxivlabs-feature-provides-instant-access-to-code/)
 * 开放科学中心 OSF（开放科学框架）
-* Linux 基金会洞察
+* [ACM Artifact Review and Badging](https://www.acm.org/publications/policies/artifact-review-and-badging-current)
 
 
 ### 数据收集策略
 
 ## 参考资料
 
+* [GitHub软件引用指南](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-on-github/about-citation-files)
+* [arXiv.org code](https://blog.arxiv.org/2020/10/08/new-arxivlabs-feature-provides-instant-access-to-code/)
 * [研究故事](https://www.researchstory.com/)
 * [替代指标](https://www.altmetric.com/)
 * [相关指标: 项目受欢迎程度](https://chaoss.community/metric-project-popularity/)
@@ -71,4 +74,6 @@
 * Matt Germonprez
 * Kevin Lumbard
 * Georg Link
+* Sean P Goggins
+* Johan Linaker
 
