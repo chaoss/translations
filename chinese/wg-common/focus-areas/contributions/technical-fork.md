@@ -47,3 +47,11 @@ https://developer.atlassian.com/bitbucket/api/2/reference/resource/repositories/
 ## 参考资料
 https://help.github.com/en/enterprise/2.13/user/articles/fork-a-repo
 https://opensource.com/article/17/12/fork-clone-difference
+
+## 贡献者
+* Vinod Ahuja
+* Sean Goggins
+* Matt Germonprez
+* Kevin Lumbard
+* Dawn Foster
+* Elizabeth Barron
