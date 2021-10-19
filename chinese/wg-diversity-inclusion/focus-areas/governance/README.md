@@ -1,6 +1,8 @@
 # 治理
 
-**目标:** 确定我们的治理多样化和包容性的情况。这个有点棘手，因为治理因项目而异。我们可能要调查或专门使用[原型](https://blog.mozilla.org/wp-content/uploads/2018/05/MZOTS_OS_Archetypes_report_ext_scr.pdf)的治理模式。
+**目标:** 确定我们的治理多样化和包容性的情况。
+
+这个有点棘手，因为治理因项目而异。我们可能要调查或专门使用[原型](https://blog.mozilla.org/wp-content/uploads/2018/05/MZOTS_OS_Archetypes_report_ext_scr.pdf)的治理模式。
 
 
 度量指标 | 问题
