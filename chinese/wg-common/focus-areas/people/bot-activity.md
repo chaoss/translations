@@ -6,18 +6,15 @@
 机器人是一种支持项目活动的软件。机器人在开源项目中扮演着越来越重要的角色，帮助协调开源项目的工作。机器人支持各种工作流程，包括议题和合并请求管理和贡献者协议。机器人为开源软件项目提供了许多选择，以决定如何有效地管理项目工作。
 
 ## 目标
-* 展示新增的贡献者
-* CLA 相关机器人活动 
-* 提供一个过滤器，例如第一响应时间
+机器人活动指标有助于区分人和自动化应用程序（例如，机器人）的项目活动。这样一来，社区管理者可以更好地区分新贡献者的增加、CLA机器人活动和机器人相关的访问控制等。这个指标可以为以下方面提供额外的背景。
+* [首次响应时间](https://chaoss.community/metric-time-to-first-response/)
 * 构建处理时间 
 * 社交考虑 -- 不是所有机器人 
 * 成熟度
 * 社区大小 
 * 项目透明度
-* 了解项目访问和贡献者特权
 
 ## 实现
-* 度量或分析技术
 * 随着时间推移，机器人与人类活动的比率
 * 随着时间的推移，机器人的平均数量 
 
@@ -33,7 +30,8 @@
 
 ### 可视化效果 
 
-<img width="1443" alt="Screen Shot 2021-08-19 at 11 19 08 AM" src="https://user-images.githubusercontent.com/656208/130105428-f9a0cc9e-dc7a-43e3-a654-25261cb4cae8.png">
+![k8s.devstats.cncf.io](https://user-images.githubusercontent.com/656208/130105428-f9a0cc9e-dc7a-43e3-a654-25261cb4cae8.png)
+
 From: https://k8s.devstats.cncf.io/d/5/bot-commands-repository-groups?orgId=1&var-period=w&var-repogroup_name=Kubernetes&var-repo_name=kubernetes%2Fkubernetes&var-commands=All
 
 
