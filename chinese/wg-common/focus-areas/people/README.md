@@ -8,4 +8,4 @@
 | [贡献者](contributors.md) | 谁是项目的贡献者？ |
 | [组织多元化](organizational-diversity.md) | 什么是贡献的组织多元化？ |
 | [机器人（bot）活动](bot-activity.md) | 自动化机器人活动的数量是多少？ |
-| [偶尔式贡献者](bot-activity.md) | 我们该如何理解偶尔式贡献者的数量和他们所做的贡献？ |
+| [偶尔贡献者](occasional-contributors.md) | 我们该如何理解偶尔贡献者的数量和他们所做的贡献？ |
