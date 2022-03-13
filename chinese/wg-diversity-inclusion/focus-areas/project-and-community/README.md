@@ -11,3 +11,4 @@
 [项目倦怠](project-burnout.md) | 在一个开源项目中，如何识别和管理项目倦怠?
 [聊天平台包容性](chat-platform-inclusivity.md) | 如何评价社区聊天平台的包容性?
 [心理安全](psychological-safety.md) |  社区成员在社区中感到安全的程度，包括参与提交贡献，影响变化，带来他们真实的自我，以及在项目中的一般参与?
+[项目的人口统计数据](project-demographics.md) | 项目中的人口统计数据是什么样的?
