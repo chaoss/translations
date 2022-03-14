@@ -24,11 +24,11 @@ First of all, we really appreciate your generosity of putting efforts in contrib
 - Call peer translators to review.
 
 #### Translating under-review metrics
-- For metrics who are ready to review, there is always a 30-day community review period, which is also a sprint time for the tranlsation team in order to catch up the new release with the English version. (But it's ok if not!)
+- For metrics who are ready to release, there is always a 30-day community review period, which is also a sprint time for the tranlsation team in order to catch up the new release with the English version. (But it's ok if not!)
 - New metrics would be submitted as issues by maintainers from each working group, with labels of different language.
 - Claim your interest if you want to translate a metric, so other people won't do duplicate work.
-- Translate metrics, submit PRs per metric.
-- Once the PR is merged, remove the correspond language label of the issue.
+- Translate metrics, submit one PR per metric.
+- Once the PR is merged, remove the correspond language label on the issue.
 - Leave the issue open if not all the language labels are clear.
 
 #### Tips that may help
