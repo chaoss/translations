@@ -4,7 +4,36 @@ This repo gathers the translations for developed metrics.
 
 To include the Chinese translation team, you can mention @chaoss/chinese-translators.
 
-## Goal
+## How Do I Translate Metrics to Another Language?
+
+First of all, we really appreciate your generosity of putting efforts in contributing to CHAOSS metric translations!
+
+#### Set up the translation team
+- To get started, you need a translation group (3~4 people will do) who are familiar with both English and the language you wish to translate to.
+- Create a new issue, in which you can provide the GitHub handles of your group. 
+- Call maintainers to set up the team (e.g., @chaoss/[language]-translators) and grant permissions.
+
+#### Before translation
+- Create a new folder named after the language under the root directory.
+- Create sub-folders organized by working groups and focus areas.
+- Note that you need to organize the metric files and add the 'Focus Area' table, for the convenient of auto-releases.
+- Reach @CHAOSS/Mars project for more concerns.
+
+#### Translating released metrics
+- For metrics who are already released, simply translate/revise the metrics, and submit PRs.
+- Call peer translators to review.
+
+#### Translating under-review metrics
+- For metrics who are ready to release, there is always a 30-day community review period, which is also a sprint time for the tranlsation team in order to catch up the new release with the English version. (But it's ok if not!)
+- New metrics would be submitted as issues by maintainers from each working group, with labels of different language.
+- Claim your interest if you want to translate a metric, so other people won't do duplicate work.
+- Translate metrics, submit one PR per metric.
+- Once the PR is merged, remove the correspond language label on the issue.
+- Leave the issue open if not all the language labels are clear.
+
+#### Tips that may help
+- Maintain a [word-comparison-table](https://github.com/chaoss/translations/blob/main/chinese/english-chinese-comparison-table.md) to keep the translation consistency.
+
 
 ## Contributors
 
