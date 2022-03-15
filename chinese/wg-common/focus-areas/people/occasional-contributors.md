@@ -9,8 +9,8 @@
 
 偶尔贡献者的动机:
 - 自助服务: 一个人有一个需要修复的bug，所以他们提交了一个议题（issue）或修复。
-- 工作相关的: 一个人为一家公司工作，公司需要修复一个bug或新功能。
-- 特殊项目或用例: 一个人需要让他们自己的项目在Commodore 64或Atari 800XL上运行。
+- 工作相关的: 一个人为一家公司工作，公司需要修复一个 bug 或新功能。
+- 特殊项目或用例: 一个人需要让他们自己的项目在 Commodore 64 或 Atari 800XL 上运行。
 - 文档添加/修复: 一个人正在修复一个错别字。
 - 编程马拉松、研讨会或其他活动: 一个人为了一个特定的目的或目标参加了一个有时间限制的活动。
 - 次优尝试: 一个人本打算留在社区做贡献，但是最终认为社区或项目不适合他们。
@@ -28,7 +28,7 @@
 
 ## 实现
 
-健康指标的使用和传播可能导致隐私侵犯。组织可能会面临风险。这些风险可能来自于遵守欧盟的 GDPR、美国的州法律或其它法律。此外，GitHub 和 GitLab 等数据提供商的服务条款也可能带来合同风险。请务必检查度量指标的使用是否存在风险和潜在的数据伦理问题。请参阅CHAOSS数据伦理文档以获得更多指导。
+健康指标的使用和传播可能导致隐私侵犯。组织可能会面临风险。这些风险可能来自于遵守欧盟的 GDPR、美国的州法律或其它法律。此外，GitHub 和 GitLab 等数据提供商的服务条款也可能带来合同风险。请务必检查度量指标的使用是否存在风险和潜在的数据伦理问题。请参阅 CHAOSS 数据伦理文档以获得更多指导。
 
 ### 筛选条件
 - 在某人不再是偶然贡献者之前的最小贡献数量。 
@@ -40,12 +40,13 @@
 
 ![Occasional Contributors Augur](images/occasional-augur.png)
 
-来自于 Augur https://tinyurl.com/augur-flyby 
+来自 Augur https://tinyurl.com/augur-flyby 
+
 Augur API 文档: https://tinyurl.com/augur-flyby-docs 
 
 ![Occasional Contributors Cauldron](images/occasional-caudron.png)
 
-来自于: https://cauldron.io/
+来自: https://cauldron.io/
 
 ### 提供指标的工具
 - [Cauldron.io](https://cauldron.io/)
@@ -54,7 +55,8 @@ Augur API 文档: https://tinyurl.com/augur-flyby-docs
 
 ## 参考资料
 [1] https://k8s.devstats.cncf.io/d/18/new-and-episodic-pr-contributors?orgId=1 
-随意而为: 最大程度提高Drive-Thru的贡献 作者：VM Brasseur 
+
+[2] [Have It Your Way: Maximizing Drive-Thru Contributions by VM Brasseur](https://www.youtube.com/watch?v=q3ie1duhpCg)
 
 ## 贡献者
 - Matt Germonprez
