@@ -1,85 +1,83 @@
-# Defect Resolution Time
+# 缺陷解决时间
 
-### This metric is a release candidate. To comment on this metric please see Issue # [156](https://github.com/chaoss/wg-risk/issues/156). Following a comment period, this metric will be included in the next regular release.
+问题: 一旦缺陷被报告和记录，项目需要多少时间来解决？ 
 
-Question: How much time does a project take to resolve defects once they have been reported and recorded? 
+同义词: Bug 
 
-Synonyms: Bug. 
-
-## Description
-What is the median time between the report of a defect to the project (using the project’s defect reporting mechanism) and the time where the project resolves the defect? Note the resolution could be to address (resolve and merge) and make the update available to its users or explicitly choosing to not address (reject).
+## 描述
+从向项目报告缺陷(使用项目的缺陷报告机制)到项目解决缺陷的中位数时间是多少？注意，处理方案可以是解决(解决及合并) ，并更新对用户可用方案，或者显式选择不处理(拒绝)。
  
-Note: 
-1. This definition defines the end time as to when the repair is accepted (merged to a public main branch or published) or rejected, as compared to when a formal new release of the software is made (this enables solving a defect where only a few users care about its fixing). For example, a defect to be considered resolved, the closing of the associated report (e.g., issue) must be linked to a merged change request or other change to code including build instructions (compiler flags or other build-time configuration items).
-2. Not all reports/issues are accurate, and many accurate reports/issues are not defects (e.g., feature requests & customer support requests).
-3. A project may appear to have a rapid response time by rapidly rejecting all defect reports as if the reports do not describe defects. In addition, malicious reporters can create a large number of spurious defect reports. This metric does not try to capture those situations; metrics users should instead see if there are indicators of such practices.
-4. Tags used to indicate a defect vary, and defect resolution analysis needs to take into account the labels used on the collection of projects being examined.
-5. The intent is not to treat this metric as a Service Level Agreement (SLA) as open source projects are maintained by volunteers and resolution time varies from project to project depending on active maintainers.
+注意: 
+1. 这一定义界定了修复何时被接受(合并到公共主分支或发布)或被拒绝的结束时间，用以与正式发布软件的时间形成对比(这使得只有少数用户关心修复的缺陷得以解决)。例如，被认为已解决的缺陷，关闭的相关报告(例如，议题)必须链接到合并的更改请求或其他代码更改，包括构建指令(编译器标志或其他构建时配置项)。
+2. 并非所有的报告/议题都是准确的，许多准确的报告/问题并不是缺陷(例如，特性请求和客户支持请求)。
+3. 通过快速拒绝所有缺陷报告，一个项目似乎有一个快速响应时间，就好像这些报告没有描述缺陷一样。此外，恶意报告者还可以制造大量虚假的缺陷报告。这个度量并不试图捕捉那些情况; 度量用户应该看看是否实际存在上述情况。
+4. 用于表示缺陷的标签各不相同，缺陷解决分析需要考虑被检查的项目集合上使用的标签。
+5. 我们的目的不是把这个指标当作服务水平协议（SLA），因为开源项目是由志愿者维护的，解决时间因项目不同而不同，取决于活跃的维护者。
 
-Defects include anything in the software that fails to work correctly (e.g., as specified). Deployment issues arising from development operations errors are not considered software defects.
+缺陷包括软件中任何不能正常工作的地方(例如，按照规定)。由开发操作错误引起的部署问题不被视为软件缺陷。
 
-## Objectives
-1. To understand how much time transpires between the receipt of a report of a defect and when its resolution is made available to users of the software.
-2. To understand mean, median, or other statistical measures of overall defect resolution time for a project, repository, or portfolio in open source projects.
-    1. Defect reports often have outliers, e.g., a low-importance defect may be difficult to report, and thus take a very long time to repair. This is why we have recommended median as the primary measure.
-    2. Understanding defect resolution across a collection of related repositories, organizations, or projects.
+## 目标
+1. 为了了解从收到缺陷报告到软件用户可以获得缺陷解决方案之间需要多少时间。
+2. 为了了解开源项目中的单个项目、代码库或项目组合的总体缺陷解决时间的平均值、中值或其他统计度量
+    1. 缺陷报告通常有异常值，例如，一个低重要性的缺陷可能很难报告，因此需要很长的时间来修复。这就是我们推荐中位数作为主要衡量标准的原因。
+    2. 了解跨相关代码仓、组织或项目集合的缺陷解决方案。
 
-## Implementation
-__The usage and dissemination of health metrics may lead to privacy violations. Organizations may be exposed to risks. These risks may flow from compliance with the GDPR in the EU, with state law in the US, or with other laws. There may also be contractual risks flowing from terms of service for data providers such as GitHub and GitLab. The usage of metrics must be examined for risk and potential data ethics problems. Please see [CHAOSS Data Ethics document]() for additional guidance__
+## 实现
+__健康指标的使用和传播可能导致隐私侵犯。组织可能会面临风险。这些风险可能来自于遵守欧盟的 GDPR、美国的州法律或其它法律。此外，GitHub 和 GitLab 等数据提供商的服务条款也可能带来合同风险。请务必检查度量指标的使用是否存在风险和潜在的数据伦理问题。请参阅[ CHAOSS 数据伦理文件](https://github.com/chaoss/metrics/tree/main/resources)以获得更多指导。__
 
-Most major Git platforms have “issue trackers”, where feature requests, defects, and deployment support questions are not automatically distinguished from each other. Filters are applied to issues, issue labels, and other metadata to distinguish between defects and other types of issues. 
+大多数主要的 Git 平台都有“问题跟踪系统”，其中的特性请求、缺陷和部署支持问题不会自动区分。过滤器应用于议题、议题标签和其他元数据，以区分缺陷和其他类型的问题。
 
-### Filters 
-Include a Filter
-* Defect resolution tied to a code change, or [change requests](https://chaoss.community/metric-change-requests/)
-* Defect resolution speed measures to indicate the aggregated (average, mean, median) time that transpires between the identification of a defect and its closure via merging a [change requests](https://chaoss.community/metric-change-requests/).  
-* Any issue that is labeled as a defect resolution when code is merged into a version available to users (Labels vary by repository). 
-* Labels in GitHub, GitLab, Bugzilla, SourceForge, or any other Issue tracking system that indicates the “issue” represents a software defect. 
-* Linked issues associated with [change requests](https://chaoss.community/metric-change-requests/), or an indication that no issue is linked to some percentage of [change requests](https://chaoss.community/metric-change-requests/). 
+### 过滤条件 
+包含一个过滤条件
+* 缺陷解决与代码更改或[更改请求](https://chaoss.community/metric-change-requests/)相关。
+* 缺陷解析速度度量，用于指示从缺陷的识别到通过合并[变更请求](https://chaoss.community/metric-change-requests/)而关闭之间的总体(均值、中位)时间。
+* 当代码合并为用户可用的版本时，任何被标记为缺陷解决的问题(标签因代码仓而异)。
+* GitHub、 GitLab、 Bugzilla、 SourceForge 或任何其他问题跟踪系统使用“issue”代表软件缺陷。
+* 与 [变更请求]](https://chaoss.community/metric-change-requests/)相关联, 或者指示出没有被issue相关联的[变更请求](https://chaoss.community/metric-change-requests/)的百分比。 
 
 
-### Visualizations
-The Four Keys project can be modified to focus on defect resolution and impact.
+### 可视化效果
+可以修改“Four Keys project”项目，以将关注点放在缺陷的解决和影响上。
 
 
 
 ![Four Key Project](images/defect-resolution-time_four-key-project.png)
 
-Source: This image is sourced from [Four Keys project] (https://github.com/GoogleCloudPlatform/fourkeys)
+来源: 这张图片来自于 [Four Keys project] (https://github.com/GoogleCloudPlatform/fourkeys)
 
 
 ![Augur](images/defect-resolution-time_augur-api.png)
 
 
-Augur’s visualization API can be applied with a filter on defect tags. 
+Augur可视化API可应用于对缺陷标签的过滤。 
 
 
-Source: This image is sourced from [Augur](http://augur.chaoss.io/api/unstable/pull_request_reports/Average_PR_duration?repo_id=25440) and http://new.augurlabs.io 
+来源: 这张图片来自于 [Augur](http://augur.chaoss.io/api/unstable/pull_request_reports/Average_PR_duration?repo_id=25440) and http://new.augurlabs.io 
 
 
 ![Grimoirelab](images/defect-resolution-time_grimoirelab-api.png)
 
 
-Grimoirelab can apply defect related filters to change request data. 
+Grimoirelab 可以将缺陷相关的过滤器应用在代码变更请求上。 
 
-Source: This image is sourced from [GrimoireLab](https://bit.ly/3vftkc1)
+来源: 这张图片来自于 [GrimoireLab](https://bit.ly/3vftkc1)
 
-### Tools Providing the Metric 
+### 提供指标的工具 
 
 * Grimoirelab 
 * Augur 
 * Four keys - https://github.com/GoogleCloudPlatform/fourkeys
 
 
-### Data Collection Strategies 
-Collecting issues from an issue tracker, along with corresponding labels, and making a preliminary assessment of whether or not the report reflects an issue. 
+### 数据收集策略 
+从议题跟踪平台收集议题，以及相应的标签，并对报告是否反映议题进行初步评估。
 
-## References
-1. [Issue Responsiveness]([https://chaoss.community/metric-issue-response-time/](https://chaoss.community/metric-issue-response-time/))  - https://chaoss.community/metric-issue-response-time/
-2. [Population]([https://chaoss.community/metric-contributors/](https://chaoss.community/metric-contributors/))[Time to Close]([https://chaoss.community/metric-time-to-close/](https://chaoss.community/metric-time-to-close/))
+## 参考资料
+1. [议题响应](https://chaoss.community/metric-issue-response-time/)
+2. [关闭时间](https://chaoss.community/metric-time-to-close/)
 3. [https://ieeexplore.ieee.org/document/8285884](https://ieeexplore.ieee.org/document/8285884) 
 
-## Contributors
+## 贡献者
 
 * Duane O’Brian
 * David Wheeler
@@ -87,7 +85,4 @@ Collecting issues from an issue tracker, along with corresponding labels, and ma
 * Renisha Nellums
 * Vinod Ahuja
 * Sean Goggins
-* Sophia Vargas 
-
-***This metric was last reviewed on February 24, 2022 as part of the March 1, 2022 CHAOSS Metrics release review period.***
-
+* Sophia Vargas
