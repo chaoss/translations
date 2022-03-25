@@ -7,3 +7,4 @@
 [分支的生命周期](branch-lifecycle.md)| 项目如何管理其版本控制分支的生命周期?
 [代码变更](code-changes.md) | 在指定时间内源代码变更了多少?
 [代码变更行数](code-changes-lines.md) | 在一段时间内对源代码的所有更改中，所触及的行数之和（增加的行数加上移除的行数）是多少?
+[代码变更提交](change-request-commits.md)|在一次变更请求中，包含了多少次提交?
