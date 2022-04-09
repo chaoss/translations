@@ -12,6 +12,8 @@
 
 ## 实现
 
+__健康指标的使用和传播可能导致隐私侵犯。组织可能会面临风险。这些风险可能来自于遵守欧盟的 GDPR、美国的州法律或其它法律。此外，GitHub 和 GitLab 等数据提供商的服务条款也可能带来合同风险。请务必检查度量指标的使用是否存在风险和潜在的数据伦理问题。请参阅[CHAOSS 数据伦理文件](https://github.com/chaoss/metrics/tree/main/resources)以获得更多指导。__
+
 ### 数据收集策略
 - 观察是否举行了公开选举，以判断候选人是否代表了成员群体。 （注意：选举通常偏向来自主流群体的候选人，难以确保选举后会代表少数群体）
 - 从项目网页观察委员会或理事会成员的多元化（限制：[统计信息](https://github.com/chaoss/wg-diversity-inclusion/tree/master/demographic-data)可能需要进一步解释）。
