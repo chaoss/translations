@@ -10,6 +10,9 @@
 了解社区在哪里协作。当我们去拓展洞察每个项目所遵循的相关流程，如果对交流日志的审查尽可能完整，这些洞察会更准确。展示一个项目是多么的开放和透明。帮助人们找到合适的地方做出贡献，并与项目联系起来。帮助项目维护者确定最佳的渠道数量，可以切实有效的分享信息，同时允许贡献者以最适合他们的方式连接。找到最低障碍的渠道参与。其他相关指标，如: [突发性波动](https://chaoss.community/metric-burstiness/), [项目发展速度](https://chaoss.community/metric-project-velocity/), [社会聆听](https://chaoss.community/metric-social-listening), [活动的日期和时间](https://chaoss.community/metric-activity-dates-and-times/), [聊天平台包容性](https://github.com/chaoss/wg-diversity-inclusion/issues/318)
 
 ## 实现
+
+__健康指标的使用和传播可能导致隐私侵犯。组织可能会面临风险。这些风险可能来自于遵守欧盟的 GDPR、美国的州法律或其它法律。此外，GitHub 和 GitLab 等数据提供商的服务条款也可能带来合同风险。请务必检查度量指标的使用是否存在风险和潜在的数据伦理问题。请参阅[CHAOSS 数据伦理文件](https://github.com/chaoss/metrics/tree/main/resources)以获得更多指导。__
+
 数据收集的单位是平台上的单个活动。与该指标有关的元数据可以包括:
 * 时间戳
 * 发件人
