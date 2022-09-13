@@ -2,7 +2,7 @@
 
 问题： 如何评价社区聊天平台的包容性？
 
-## Description
+## 描述
 
 开源社区需要为贡献者提供交流互动的场所。这种交流大部分可能与项目有关，但也可能存在与其他贡献者进行日常社交的空间。该指标描述了聊天平台中的同步通信，其中包括公共聊天室、实时对话和视频会议。
 
@@ -48,14 +48,14 @@ _健康指标的使用和传播可能导致隐私侵犯。组织可能会面临�
 
 ### 提供度量的工具
 
-[GrimoireLab Perceval][1] 目前支持从各种聊天平台收集数据。
+[GrimoireLab Perceval](https://github.com/chaoss/grimoirelab-perceval#usage) 目前支持从各种聊天平台收集数据。
 
 ### 数据收集策略
 
 - 从聊天平台跟踪数据：
-  - 参见支持的数据收集平台 [in Perceval][https://github.com/chaoss/grimoirelab-perceval#usage].
+  - 参见支持的数据收集平台 [in Perceval](https://github.com/chaoss/grimoirelab-perceval#usage).
 - 聊天平台的开源状态：
-  - 参见 [CHAOSS blog post on open source platform status][https://chaoss.community/blog-post/2020/12/15/di-metrics-definition/]。
+  - 参见 [CHAOSS blog post on open source platform status](https://chaoss.community/blog-post/2020/12/15/di-metrics-definition/)。
   - 聊天平台是否提供开源客户端应用程序？
   - 聊天平台是否提供开源服务器的实现？
   - 聊天平台是否提供了集成数据收集或桥接的开放 API？
@@ -77,10 +77,10 @@ _健康指标的使用和传播可能导致隐私侵犯。组织可能会面临�
 
 ## 参考资料
 
-1. [喜欢还是讨厌聊天？ 4 个远程团队的最佳实践][https://opensource.com/article/20/4/chat-tools-best-practices] — Opensource.com
-2. [聊天平台的开源状态][https://chaoss.community/blog-post/2020/12/15/di-metrics-definition/] — Chaoss.community
+1. [喜欢还是讨厌聊天？ 4 个远程团队的最佳实践](https://opensource.com/article/20/4/chat-tools-best-practices) — Opensource.com
+2. [聊天平台的开源状态](https://chaoss.community/blog-post/2020/12/15/di-metrics-definition/) — Chaoss.community
 3. 审核建议（可通知<u>选择平台</u>）：
-   1. [包容社区的审核指南][https://web.archive.org/web/20200522175549/https:///articles/2017-04/moderation-guidelines] — rhea.dev
-   2. [参与及审核指南][https://www.drupaldiversity.com/docs/participation-moderation-guidelines] — drupaldiversity.com
+   1. [包容社区的审核指南](https://web.archive.org/web/20200522175549/https:///articles/2017-04/moderation-guidelines) — rhea.dev
+   2. [参与及审核指南](https://www.drupaldiversity.com/docs/participation-moderation-guidelines) — drupaldiversity.com
 
 _**本度量指标作为度量修订过程的一部分，于 2022 年 7 月 20 日进行了最后一次评审。**_
