@@ -53,9 +53,9 @@ _健康指标的使用和传播可能导致隐私侵犯。组织可能会面临�
 ### 数据收集策略
 
 - 从聊天平台跟踪数据：
-  - 参见支持的数据收集平台 [in Perceval](https://github.com/chaoss/grimoirelab-perceval#usage).
+  - 参见支持的数据收集平台 [Perceval](https://github.com/chaoss/grimoirelab-perceval#usage).
 - 聊天平台的开源状态：
-  - 参见 [CHAOSS blog post on open source platform status](https://chaoss.community/blog-post/2020/12/15/di-metrics-definition/)。
+  - 参见 [CHAOSS 在开源平台上的博客](https://chaoss.community/blog-post/2020/12/15/di-metrics-definition/)。
   - 聊天平台是否提供开源客户端应用程序？
   - 聊天平台是否提供开源服务器的实现？
   - 聊天平台是否提供了集成数据收集或桥接的开放 API？
