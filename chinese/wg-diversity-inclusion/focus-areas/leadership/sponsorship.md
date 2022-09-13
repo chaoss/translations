@@ -52,7 +52,7 @@ __健康指标的使用和传播可能导致隐私侵犯。组织可能会面临
    - 人才创新中心（付款链接）
     - https://coqual.org/reports/sponsor-effect-2-0-road-maps-for-sponsors-and-proteges/
 - The Key Role of Sponsorship:
-   - https://inclusion.slac.stanford.edu/sites/inclusion.slac.stanford.edu/files/The_Key_Role_of_a_Sponsorship_for_Diverse_Talent.pdf
+   - https://inclusion.slac.stanford.edu/sites/default/files/The_Key_Role_of_a_Sponsorship_for_Diverse_Talent.pdf
 - Perceived unfairness is a major reason to leave a community
    - https://www.kaporcenter.org/tech-leavers/
 - Sponsors Need to Stop Acting Like Mentors
