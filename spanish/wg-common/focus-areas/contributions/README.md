@@ -1,11 +1,9 @@
 ## Contributions
 
-**Goal:** Identify what contributions are made (e.g., code commit, wiki edit, documentation)
+**Goal:** Idntificar los tipos de contribuciones que se realizan (por ejemplo, commit de los códitos, ediciones en wiki, documentación) 
 
-| Metric | Question |
+| Métrica | Preguntas |
 | --- | --- |
-| [Technical Fork](technical-fork.md)| What are a number of technical forks of an open source project on code development platforms? |
-| [Types of Contributions](types-of-contributions.md) | What types of contributions are being made? |
-| [Language Distribution](language-distribution.md) | What are the different programming languages present in an open source project(s), and what is the percentage of each language?  |
-
-> This README needs to be translated to Spanish
+| [Fork técnico](technical-fork.md)| ¿Cuál es el número de forks técnicos a un proyecto de código abierto en plataformas de desarrollo de código? |
+| [Tipos de contribución](types-of-contributions.md) | ¿Qué tipo de contribuciones se realizan? |
+| [Distribución de lenguajes](language-distribution.md) | ¿Cuáles son los diferentes lenguajes de programación presentes en un projecto(s) de código abierto? ¿Cuál es el porcentaje de cada uno? |
