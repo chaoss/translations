@@ -1,19 +1,15 @@
-## Project & Communities
+##Proyecto y Comunidades
 
-**Goal:** Identify how diverse and inclusive our project places, where community engagement occurs, are.
+**Meta:** Identificar cuán diversos e inclusivos son los espacios de nuestro proyecto, en los lugares donde ocurren las mayores interacciones. 
 
-**Description:** 
+**Descripción:** 
 
-Name | Question
+Nombre | Pregunta
 --- | ---
-[Documentation Usability](documentation-usability.md) | What is the usability of documentation from content and structure perspectives?
-[Documentation Accessibility](documentation-accessibility.md) | How does the documentation accommodate different users?
-[Issue Label Inclusivity](issue-label-inclusivity.md) | How well are project issues labeled to invite new contributors, skilled contributors, non-code contributors, and other types of contributors?
-[Project Burnout](project-burnout.md) | How is project burnout identified and managed within an open source project?
-[Chat Platform Inclusivity](chat-platform-inclusivity.md ) | How do you review Chat Platform inclusivity for your community?
-| (The following metrics are not released, yet)
-[Communication Channels](channels.md) | How welcoming, responsive, respectful are interactions even on hot topics of debate?  What is the diversity of voices speaking/being heard?
-[Response Times & Quality](response-time-quality.md) | How quickly and well do we respond to suggestions, PRS, questions (Note: dependent on quality of PR, questions needs factored in)?
-[Sentiment](sentiment.md) | What is the sentiment within external communication channels regarding our own press releases and within our internal communication channels, e.g., mail lists or IRC?
-
-> This README needs to be translated to Spanish
+[Usabilidad de la Documentación](documentation-usability.md) | ¿Cuál es la usabilidad de la documentación desde el punto de vista del contenido y la estructura?
+[Accesibilidad de la Documentación](documentation-accessibility.md) | ¿Hasta qué grado se acomoda la documentación a diferentes usuarios? 
+[Descubrimiento de la Documentación](documentation_discoverability.md) | Las personas usuarias y contribuyentes, ¿pueden acceder a la documentación del proyecto y encontrar lo que buscan con facilidad?
+[Inclusividad en las Etiquetas de Problemas](issue-label-inclusivity.md) | ¿Cómo son descritas las etiquetas de problemas a resolver para generar el interés de nuevas personas contribuyentes, contribuyentes con mucha experiencia, personas que contribuyen sin escribir código, y cualquier otro tipo de contribuyentes?
+[Síndrome de Agotamiento Profesional (Burnout) dentro del Proyecto](project-burnout.md) | ¿Cómo se identifica y gestiona el síndrome de agotamiento profesional o burnout en el ámbito de un proyecto open source?
+[Inclusividad de la Plataforma de Chat](chat-platform-inclusivity.md ) | ¿Cómo se mide la inclusión en la plataforma de Chat de la comunidad?
+[Datos Demográficos del Proyecto](project-demographics.md) | ¿Cuáles son los datos demográficos del proyecto?
